@@ -2,7 +2,7 @@
   "name": "@npmcli/query",
   "version": "1.0.0",
   "description": "npm query parser and tools",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "tap",
     "lint": "eslint \"**/*.js\"",
