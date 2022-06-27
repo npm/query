@@ -50,6 +50,7 @@
     "tap": "^16.2.0"
   },
   "dependencies": {
+    "npm-package-arg": "^9.1.0",
     "postcss-selector-parser": "^6.0.10",
     "semver": "^7.3.7"
   },
