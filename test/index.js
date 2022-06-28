@@ -89,6 +89,7 @@ const checks = [
 
   // attr pseudo-class
   [':attr([name=dasher])'],
+  [':attr([name=dasher i])'],
   [':attr(dependencies, [bar="^1.0.0"])'],
   [':attr(dependencies, :attr([bar="^1.0.0"]))'],
   [':attr([keywords=lorem])'],
@@ -96,6 +97,7 @@ const checks = [
   [':attr(arbitrary, [foo*=oo])'],
   [':attr(arbitrary, [foo|=oo])'],
   [':attr(funding, :attr([type=GitHub]))'],
+  [':attr(funding, :attr([type=GitHub i]))'],
   [':attr(arbitrary, foo, :attr(funding, [type=GH]))'],
 
   // attribute matchers

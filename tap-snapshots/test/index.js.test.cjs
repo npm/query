@@ -5186,6 +5186,81 @@ exports[`test/index.js TAP > :attr([keywords=lorem]) 1`] = `
 }
 `
 
+exports[`test/index.js TAP > :attr([name=dasher i]) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "name",
+            "insensitive": true,
+            "operator": "=",
+            "value": "dasher",
+          },
+          "lookupProperties": Array [],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 22,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":attr",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 22,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 22,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
 exports[`test/index.js TAP > :attr([name=dasher]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
@@ -5705,6 +5780,84 @@ exports[`test/index.js TAP > :attr(dependencies, [bar="^1.0.0"]) 1`] = `
   "source": Object {
     "end": Object {
       "column": 35,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP > :attr(funding, :attr([type=GitHub i])) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "type",
+            "insensitive": true,
+            "operator": "=",
+            "value": "GitHub",
+          },
+          "lookupProperties": Array [
+            "funding",
+            Symbol(arrayDelimiter),
+          ],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 38,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":attr",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 38,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 38,
       "line": 1,
     },
     "start": Object {
