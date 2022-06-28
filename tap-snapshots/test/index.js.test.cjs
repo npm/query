@@ -5126,6 +5126,7 @@ exports[`test/index.js TAP > :attr([keywords=lorem]) 1`] = `
           "attributeMatcher": Object {
             "attribute": "keywords",
             "operator": "=",
+            "qualifiedAttribute": "keywords",
             "value": "lorem",
           },
           "lookupProperties": Array [],
@@ -5201,6 +5202,7 @@ exports[`test/index.js TAP > :attr([name=dasher i]) 1`] = `
             "attribute": "name",
             "insensitive": true,
             "operator": "=",
+            "qualifiedAttribute": "name",
             "value": "dasher",
           },
           "lookupProperties": Array [],
@@ -5275,6 +5277,7 @@ exports[`test/index.js TAP > :attr([name=dasher]) 1`] = `
           "attributeMatcher": Object {
             "attribute": "name",
             "operator": "=",
+            "qualifiedAttribute": "name",
             "value": "dasher",
           },
           "lookupProperties": Array [],
@@ -5349,6 +5352,7 @@ exports[`test/index.js TAP > :attr(arbitrary, [foo$=oo]) 1`] = `
           "attributeMatcher": Object {
             "attribute": "foo",
             "operator": "$=",
+            "qualifiedAttribute": "foo",
             "value": "oo",
           },
           "lookupProperties": Array [
@@ -5425,6 +5429,7 @@ exports[`test/index.js TAP > :attr(arbitrary, [foo*=oo]) 1`] = `
           "attributeMatcher": Object {
             "attribute": "foo",
             "operator": "*=",
+            "qualifiedAttribute": "foo",
             "value": "oo",
           },
           "lookupProperties": Array [
@@ -5501,6 +5506,7 @@ exports[`test/index.js TAP > :attr(arbitrary, [foo|=oo]) 1`] = `
           "attributeMatcher": Object {
             "attribute": "foo",
             "operator": "|=",
+            "qualifiedAttribute": "foo",
             "value": "oo",
           },
           "lookupProperties": Array [
@@ -5577,6 +5583,7 @@ exports[`test/index.js TAP > :attr(arbitrary, foo, :attr(funding, [type=GH])) 1`
           "attributeMatcher": Object {
             "attribute": "type",
             "operator": "=",
+            "qualifiedAttribute": "type",
             "value": "GH",
           },
           "lookupProperties": Array [
@@ -5656,6 +5663,7 @@ exports[`test/index.js TAP > :attr(dependencies, :attr([bar="^1.0.0"])) 1`] = `
           "attributeMatcher": Object {
             "attribute": "bar",
             "operator": "=",
+            "qualifiedAttribute": "bar",
             "value": "^1.0.0",
           },
           "lookupProperties": Array [
@@ -5733,6 +5741,7 @@ exports[`test/index.js TAP > :attr(dependencies, [bar="^1.0.0"]) 1`] = `
           "attributeMatcher": Object {
             "attribute": "bar",
             "operator": "=",
+            "qualifiedAttribute": "bar",
             "value": "^1.0.0",
           },
           "lookupProperties": Array [
@@ -5810,6 +5819,7 @@ exports[`test/index.js TAP > :attr(funding, :attr([type=GitHub i])) 1`] = `
             "attribute": "type",
             "insensitive": true,
             "operator": "=",
+            "qualifiedAttribute": "type",
             "value": "GitHub",
           },
           "lookupProperties": Array [
@@ -5887,6 +5897,7 @@ exports[`test/index.js TAP > :attr(funding, :attr([type=GitHub])) 1`] = `
           "attributeMatcher": Object {
             "attribute": "type",
             "operator": "=",
+            "qualifiedAttribute": "type",
             "value": "GitHub",
           },
           "lookupProperties": Array [
