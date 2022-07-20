@@ -92,6 +92,7 @@ const checks = [
   [':attr([name=dasher i])'],
   [':attr(dependencies, [bar="^1.0.0"])'],
   [':attr(dependencies, :attr([bar="^1.0.0"]))'],
+  [':attr(devDependencies, [@scoped/package])'],
   [':attr([keywords=lorem])'],
   [':attr(arbitrary, [foo$=oo])'],
   [':attr(arbitrary, [foo*=oo])'],
