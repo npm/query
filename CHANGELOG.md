@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/npm/query/compare/v1.1.0...v1.1.1) (2022-08-03)
+
+
+### Bug Fixes
+
+* unescape attr slashes ([#5](https://github.com/npm/query/issues/5)) ([0351e00](https://github.com/npm/query/commit/0351e00389653c6682a49be17538588a62759c4b))
+
 ## [1.1.0](https://github.com/npm/query/compare/v1.0.2...v1.1.0) (2022-06-28)
 
 
