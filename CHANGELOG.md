@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/npm/query/compare/v1.1.1...v1.2.0) (2022-08-18)
+
+
+### Features
+
+* extend the semver pseudo selector to allow additional parameters ([#8](https://github.com/npm/query/issues/8)) ([3cf1b58](https://github.com/npm/query/commit/3cf1b58d7db50b39834fb69d5ade2c6635a7d9e1))
+
 ## [1.1.1](https://github.com/npm/query/compare/v1.1.0...v1.1.1) (2022-08-03)
 
 
