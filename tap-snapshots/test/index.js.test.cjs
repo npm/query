@@ -506,8 +506,15 @@ exports[`test/index.js TAP > #a, #bar:semver(2), #foo@2.2.2 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_3>,
+          "semverFunc": undefined,
           "semverValue": "2",
           "source": Object {
             "end": Object {
@@ -816,8 +823,15 @@ exports[`test/index.js TAP > #bar:semver(*) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "*",
           "source": Object {
             "end": Object {
@@ -905,8 +919,15 @@ exports[`test/index.js TAP > #bar:semver(1 || 2) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "1||2",
           "source": Object {
             "end": Object {
@@ -994,8 +1015,15 @@ exports[`test/index.js TAP > #bar:semver(1 || 2.0.0) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "1||2.0.0",
           "source": Object {
             "end": Object {
@@ -1052,6 +1080,106 @@ exports[`test/index.js TAP > #bar:semver(1 || 2.0.0) 1`] = `
 }
 `
 
+exports[`test/index.js TAP > #bar:semver(1.0.0, :attr(engines, [node]), satisfies) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        ID {
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 4,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "id",
+          "value": "bar",
+        },
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "node",
+            "operator": undefined,
+            "qualifiedAttribute": "node",
+            "value": undefined,
+          },
+          "lookupProperties": Array [
+            Symbol(arrayDelimiter),
+            "engines",
+          ],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": "satisfies",
+          "semverValue": "1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 53,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 5,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 4,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 53,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 53,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
 exports[`test/index.js TAP > #bar:semver(1.4.0 || 2) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
@@ -1083,8 +1211,15 @@ exports[`test/index.js TAP > #bar:semver(1.4.0 || 2) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "1.4.0||2",
           "source": Object {
             "end": Object {
@@ -1172,8 +1307,15 @@ exports[`test/index.js TAP > #bar:semver(1||2) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "1||2",
           "source": Object {
             "end": Object {
@@ -1261,8 +1403,15 @@ exports[`test/index.js TAP > #bar:semver(2 - 3) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "2 - 3",
           "source": Object {
             "end": Object {
@@ -1350,8 +1499,15 @@ exports[`test/index.js TAP > #bar:semver(2) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "2",
           "source": Object {
             "end": Object {
@@ -1439,8 +1595,15 @@ exports[`test/index.js TAP > #bar:semver(2), #foo 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "2",
           "source": Object {
             "end": Object {
@@ -1570,8 +1733,15 @@ exports[`test/index.js TAP > #bar:semver(2.0) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "2.0",
           "source": Object {
             "end": Object {
@@ -1659,8 +1829,15 @@ exports[`test/index.js TAP > #bar:semver(2.0.0 - 3.0.0) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "2.0.0 - 3.0.0",
           "source": Object {
             "end": Object {
@@ -1748,8 +1925,15 @@ exports[`test/index.js TAP > #bar:semver(2.x) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "2.x",
           "source": Object {
             "end": Object {
@@ -1837,8 +2021,15 @@ exports[`test/index.js TAP > #bar:semver(2.x.x) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "2.x.x",
           "source": Object {
             "end": Object {
@@ -1926,8 +2117,15 @@ exports[`test/index.js TAP > #bar:semver(<3.0.0) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "<3.0.0",
           "source": Object {
             "end": Object {
@@ -2015,8 +2213,15 @@ exports[`test/index.js TAP > #bar:semver(=2.0.0) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "=2.0.0",
           "source": Object {
             "end": Object {
@@ -2104,8 +2309,15 @@ exports[`test/index.js TAP > #bar:semver(>1.5.0 <3.0.0) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": ">1.5.0 <3.0.0",
           "source": Object {
             "end": Object {
@@ -2193,8 +2405,15 @@ exports[`test/index.js TAP > #bar:semver(>=2.0.0) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": ">=2.0.0",
           "source": Object {
             "end": Object {
@@ -2251,6 +2470,106 @@ exports[`test/index.js TAP > #bar:semver(>=2.0.0) 1`] = `
 }
 `
 
+exports[`test/index.js TAP > #bar:semver(^1.0.0, :attr(engines, [node]), intersects) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        ID {
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 4,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "id",
+          "value": "bar",
+        },
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "node",
+            "operator": undefined,
+            "qualifiedAttribute": "node",
+            "value": undefined,
+          },
+          "lookupProperties": Array [
+            Symbol(arrayDelimiter),
+            "engines",
+          ],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": "intersects",
+          "semverValue": "^1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 55,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 5,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 4,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 55,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 55,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
 exports[`test/index.js TAP > #bar:semver(^2.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
@@ -2282,8 +2601,15 @@ exports[`test/index.js TAP > #bar:semver(^2.0.0) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "^2.0.0",
           "source": Object {
             "end": Object {
@@ -2371,8 +2697,15 @@ exports[`test/index.js TAP > #bar:semver(^2.0.0-beta.0) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "^2.0.0-beta.0",
           "source": Object {
             "end": Object {
@@ -2460,8 +2793,15 @@ exports[`test/index.js TAP > #bar:semver(~2.0.0) 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "~2.0.0",
           "source": Object {
             "end": Object {
@@ -6490,8 +6830,15 @@ exports[`test/index.js TAP > :is(*:semver(2.0.0), :semver(=2.0.0-beta.45)) 1`] =
                     "value": "*",
                   },
                   Pseudo {
+                    "attributeMatcher": Object {
+                      "attribute": "version",
+                      "insensitive": false,
+                      "qualifiedAttribute": "version",
+                    },
+                    "lookupProperties": Array [],
                     "nodes": Array [],
                     "parent": <*ref_1>,
+                    "semverFunc": undefined,
                     "semverValue": "2.0.0",
                     "source": Object {
                       "end": Object {
@@ -6534,8 +6881,15 @@ exports[`test/index.js TAP > :is(*:semver(2.0.0), :semver(=2.0.0-beta.45)) 1`] =
                 "lastEach": 1,
                 "nodes": Array [
                   Pseudo {
+                    "attributeMatcher": Object {
+                      "attribute": "version",
+                      "insensitive": false,
+                      "qualifiedAttribute": "version",
+                    },
+                    "lookupProperties": Array [],
                     "nodes": Array [],
                     "parent": <*ref_3>,
+                    "semverFunc": undefined,
                     "semverValue": "=2.0.0-beta.45",
                     "source": Object {
                       "end": Object {
@@ -7922,8 +8276,15 @@ exports[`test/index.js TAP > :root #bar:semver(1) > * 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "1",
           "source": Object {
             "end": Object {
@@ -8101,8 +8462,15 @@ exports[`test/index.js TAP > :root #bar:semver(1) ~ * 1`] = `
           "value": "bar",
         },
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "1",
           "source": Object {
             "end": Object {
@@ -10936,8 +11304,15 @@ exports[`test/index.js TAP > :semver() 1`] = `
       "lastEach": 1,
       "nodes": Array [
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "",
           "source": Object {
             "end": Object {
@@ -11005,8 +11380,15 @@ exports[`test/index.js TAP > :semver(*) 1`] = `
       "lastEach": 1,
       "nodes": Array [
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "*",
           "source": Object {
             "end": Object {
@@ -11063,6 +11445,400 @@ exports[`test/index.js TAP > :semver(*) 1`] = `
 }
 `
 
+exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node])) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "node",
+            "operator": undefined,
+            "qualifiedAttribute": "node",
+            "value": undefined,
+          },
+          "lookupProperties": Array [
+            Symbol(arrayDelimiter),
+            "engines",
+          ],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": undefined,
+          "semverValue": "1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 38,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 38,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 38,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node]), "satisfies") 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "node",
+            "operator": undefined,
+            "qualifiedAttribute": "node",
+            "value": undefined,
+          },
+          "lookupProperties": Array [
+            Symbol(arrayDelimiter),
+            "engines",
+          ],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": undefined,
+          "semverValue": "1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 51,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 51,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 51,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node]), satisfies) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "node",
+            "operator": undefined,
+            "qualifiedAttribute": "node",
+            "value": undefined,
+          },
+          "lookupProperties": Array [
+            Symbol(arrayDelimiter),
+            "engines",
+          ],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": "satisfies",
+          "semverValue": "1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 49,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 49,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 49,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP > :semver(1.0.0, [version]) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "operator": undefined,
+            "qualifiedAttribute": "version",
+            "value": undefined,
+          },
+          "lookupProperties": Array [],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": undefined,
+          "semverValue": "1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 25,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 25,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 25,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP > :semver(1.0.0, [version], satisfies) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "operator": undefined,
+            "qualifiedAttribute": "version",
+            "value": undefined,
+          },
+          "lookupProperties": Array [],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": "satisfies",
+          "semverValue": "1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 36,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 36,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 36,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
 exports[`test/index.js TAP > :semver(1.4.0 || 2.2.2) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
@@ -11074,8 +11850,15 @@ exports[`test/index.js TAP > :semver(1.4.0 || 2.2.2) 1`] = `
       "lastEach": 1,
       "nodes": Array [
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "1.4.0||2.2.2",
           "source": Object {
             "end": Object {
@@ -11143,8 +11926,15 @@ exports[`test/index.js TAP > :semver(2 - 3) 1`] = `
       "lastEach": 1,
       "nodes": Array [
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "2 - 3",
           "source": Object {
             "end": Object {
@@ -11212,8 +12002,15 @@ exports[`test/index.js TAP > :semver(2.0.0) 1`] = `
       "lastEach": 1,
       "nodes": Array [
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "2.0.0",
           "source": Object {
             "end": Object {
@@ -11281,8 +12078,15 @@ exports[`test/index.js TAP > :semver(=1.4.0) 1`] = `
       "lastEach": 1,
       "nodes": Array [
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "=1.4.0",
           "source": Object {
             "end": Object {
@@ -11350,8 +12154,15 @@ exports[`test/index.js TAP > :semver(>=2) 1`] = `
       "lastEach": 1,
       "nodes": Array [
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": ">=2",
           "source": Object {
             "end": Object {
@@ -11408,6 +12219,320 @@ exports[`test/index.js TAP > :semver(>=2) 1`] = `
 }
 `
 
+exports[`test/index.js TAP > :semver(^1.0.0, :attr(engines, [node])) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "node",
+            "operator": undefined,
+            "qualifiedAttribute": "node",
+            "value": undefined,
+          },
+          "lookupProperties": Array [
+            Symbol(arrayDelimiter),
+            "engines",
+          ],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": undefined,
+          "semverValue": "^1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 39,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 39,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 39,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP > :semver(^1.0.0, :attr(engines, [node]), satisfies) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "node",
+            "operator": undefined,
+            "qualifiedAttribute": "node",
+            "value": undefined,
+          },
+          "lookupProperties": Array [
+            Symbol(arrayDelimiter),
+            "engines",
+          ],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": "satisfies",
+          "semverValue": "^1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 50,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 50,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 50,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP > :semver(^1.0.0, [version]) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "operator": undefined,
+            "qualifiedAttribute": "version",
+            "value": undefined,
+          },
+          "lookupProperties": Array [],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": undefined,
+          "semverValue": "^1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 26,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 26,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 26,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP > :semver(^1.0.0, [version], satisfies) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "operator": undefined,
+            "qualifiedAttribute": "version",
+            "value": undefined,
+          },
+          "lookupProperties": Array [],
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "semverFunc": "satisfies",
+          "semverValue": "^1.0.0",
+          "source": Object {
+            "end": Object {
+              "column": 37,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":semver",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 37,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 37,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
 exports[`test/index.js TAP > :semver(~2.0.x) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
@@ -11419,8 +12544,15 @@ exports[`test/index.js TAP > :semver(~2.0.x) 1`] = `
       "lastEach": 1,
       "nodes": Array [
         Pseudo {
+          "attributeMatcher": Object {
+            "attribute": "version",
+            "insensitive": false,
+            "qualifiedAttribute": "version",
+          },
+          "lookupProperties": Array [],
           "nodes": Array [],
           "parent": <*ref_1>,
+          "semverFunc": undefined,
           "semverValue": "~2.0.x",
           "source": Object {
             "end": Object {
