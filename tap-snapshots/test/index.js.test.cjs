@@ -7492,6 +7492,143 @@ exports[`test/index.js TAP > :not(:not(:link)) 1`] = `
 }
 `
 
+exports[`test/index.js TAP > :outdated 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 9,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":outdated",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 9,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 9,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP > :outdated(any) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "outdatedKind": "any",
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 14,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":outdated",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 14,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 14,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
 exports[`test/index.js TAP > :path() 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),

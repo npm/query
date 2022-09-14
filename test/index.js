@@ -110,6 +110,10 @@ const checks = [
   [':attr(funding, :attr([type=GitHub i]))'],
   [':attr(arbitrary, foo, :attr(funding, [type=GH]))'],
 
+  // :outdated pseudo
+  [':outdated'],
+  [':outdated(any)'],
+
   // attribute matchers
   ['[name]'],
   ['[name=a]'],
