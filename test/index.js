@@ -48,9 +48,9 @@ const checks = [
   [':not(:not(:link))'],
 
   // has pseudo-class
-  [':root > *:has(* > #bar@1.4.0)'],
-  ['*:has(* > #bar@1.4.0)'],
-  ['*:has(> #bar@1.4.0)'],
+  [':root > *:has(* > #bar)'],
+  ['*:has(* > #bar)'],
+  ['*:has(> #bar)'],
   ['.workspace:has(> * > #lorem)'],
   ['.workspace:has(* #lorem, ~ #b)'],
 
@@ -142,8 +142,6 @@ const checks = [
 
   // id selector
   ['#bar'],
-  ['#bar@2.0.0'],
-  ['#@npmcli/abbrev@2.0.0-beta.45'],
   ['#bar:semver(2.0)'],
   ['#bar:semver(2)'],
   ['#bar:semver(^2.0.0)'],
@@ -172,7 +170,7 @@ const checks = [
   [':root #bar:semver(1) > *'],
   [':root #bar:semver(1) ~ *'],
   ['#bar:semver(2), #foo'],
-  ['#a, #bar:semver(2), #foo@2.2.2'],
+  ['#a, #bar:semver(2), #foo'],
 ]
 
 for (const [query] of checks) {

@@ -5,76 +5,6 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/index.js TAP > #@npmcli/abbrev@2.0.0-beta.45 1`] = `
-&ref_2 Root {
-  "_error": Function (message, errorOptions),
-  "indexes": Object {},
-  "lastEach": 1,
-  "nodes": Array [
-    &ref_1 Selector {
-      "indexes": Object {},
-      "lastEach": 1,
-      "nodes": Array [
-        ID {
-          "parent": <*ref_1>,
-          "raws": Object {
-            "value": "@npmcli\\\\/abbrev@2",
-          },
-          "source": Object {
-            "end": Object {
-              "column": 18,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 1,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 0,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "id",
-          "value": "@npmcli/abbrev@2.0.0-beta.45",
-        },
-      ],
-      "parent": <*ref_2>,
-      "source": Object {
-        "end": Object {
-          "column": 30,
-          "line": 1,
-        },
-        "start": Object {
-          "column": 1,
-          "line": 1,
-        },
-      },
-      "spaces": Object {
-        "after": "",
-        "before": "",
-      },
-      "type": "selector",
-    },
-  ],
-  "source": Object {
-    "end": Object {
-      "column": 30,
-      "line": 1,
-    },
-    "start": Object {
-      "column": 1,
-      "line": 1,
-    },
-  },
-  "spaces": Object {
-    "after": "",
-    "before": "",
-  },
-  "type": "root",
-}
-`
-
 exports[`test/index.js TAP > #a *:root 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
@@ -433,7 +363,7 @@ exports[`test/index.js TAP > #a ~ :root 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #a, #bar:semver(2), #foo@2.2.2 1`] = `
+exports[`test/index.js TAP > #a, #bar:semver(2), #foo 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -560,7 +490,7 @@ exports[`test/index.js TAP > #a, #bar:semver(2), #foo@2.2.2 1`] = `
           "parent": <*ref_4>,
           "source": Object {
             "end": Object {
-              "column": 26,
+              "column": 24,
               "line": 1,
             },
             "start": Object {
@@ -574,13 +504,13 @@ exports[`test/index.js TAP > #a, #bar:semver(2), #foo@2.2.2 1`] = `
             "before": "",
           },
           "type": "id",
-          "value": "foo@2.2.2",
+          "value": "foo",
         },
       ],
       "parent": <*ref_2>,
       "source": Object {
         "end": Object {
-          "column": 30,
+          "column": 24,
           "line": 1,
         },
         "start": Object {
@@ -597,7 +527,7 @@ exports[`test/index.js TAP > #a, #bar:semver(2), #foo@2.2.2 1`] = `
   ],
   "source": Object {
     "end": Object {
-      "column": 30,
+      "column": 24,
       "line": 1,
     },
     "start": Object {
@@ -2858,73 +2788,6 @@ exports[`test/index.js TAP > #bar:semver(~2.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar@2.0.0 1`] = `
-&ref_2 Root {
-  "_error": Function (message, errorOptions),
-  "indexes": Object {},
-  "lastEach": 1,
-  "nodes": Array [
-    &ref_1 Selector {
-      "indexes": Object {},
-      "lastEach": 1,
-      "nodes": Array [
-        ID {
-          "parent": <*ref_1>,
-          "source": Object {
-            "end": Object {
-              "column": 6,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 1,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 0,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "id",
-          "value": "bar@2.0.0",
-        },
-      ],
-      "parent": <*ref_2>,
-      "source": Object {
-        "end": Object {
-          "column": 10,
-          "line": 1,
-        },
-        "start": Object {
-          "column": 1,
-          "line": 1,
-        },
-      },
-      "spaces": Object {
-        "after": "",
-        "before": "",
-      },
-      "type": "selector",
-    },
-  ],
-  "source": Object {
-    "end": Object {
-      "column": 10,
-      "line": 1,
-    },
-    "start": Object {
-      "column": 1,
-      "line": 1,
-    },
-  },
-  "spaces": Object {
-    "after": "",
-    "before": "",
-  },
-  "type": "root",
-}
-`
-
 exports[`test/index.js TAP > #ipsum 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
@@ -3396,7 +3259,7 @@ exports[`test/index.js TAP > * > :root 1`] = `
 }
 `
 
-exports[`test/index.js TAP > *:has(* > #bar@1.4.0) 1`] = `
+exports[`test/index.js TAP > *:has(* > #bar) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -3484,7 +3347,7 @@ exports[`test/index.js TAP > *:has(* > #bar@1.4.0) 1`] = `
                     "parent": <*ref_2>,
                     "source": Object {
                       "end": Object {
-                        "column": 16,
+                        "column": 14,
                         "line": 1,
                       },
                       "start": Object {
@@ -3498,13 +3361,13 @@ exports[`test/index.js TAP > *:has(* > #bar@1.4.0) 1`] = `
                       "before": "",
                     },
                     "type": "id",
-                    "value": "bar@1.4.0",
+                    "value": "bar",
                   },
                 ],
                 "parent": <*ref_3>,
                 "source": Object {
                   "end": Object {
-                    "column": 21,
+                    "column": 15,
                     "line": 1,
                   },
                   "start": Object {
@@ -3529,7 +3392,7 @@ exports[`test/index.js TAP > *:has(* > #bar@1.4.0) 1`] = `
           "parent": <*ref_1>,
           "source": Object {
             "end": Object {
-              "column": 21,
+              "column": 15,
               "line": 1,
             },
             "start": Object {
@@ -3549,7 +3412,7 @@ exports[`test/index.js TAP > *:has(* > #bar@1.4.0) 1`] = `
       "parent": <*ref_4>,
       "source": Object {
         "end": Object {
-          "column": 21,
+          "column": 15,
           "line": 1,
         },
         "start": Object {
@@ -3566,7 +3429,7 @@ exports[`test/index.js TAP > *:has(* > #bar@1.4.0) 1`] = `
   ],
   "source": Object {
     "end": Object {
-      "column": 21,
+      "column": 15,
       "line": 1,
     },
     "start": Object {
@@ -3582,7 +3445,7 @@ exports[`test/index.js TAP > *:has(* > #bar@1.4.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > *:has(> #bar@1.4.0) 1`] = `
+exports[`test/index.js TAP > *:has(> #bar) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -3645,7 +3508,7 @@ exports[`test/index.js TAP > *:has(> #bar@1.4.0) 1`] = `
                     "parent": <*ref_2>,
                     "source": Object {
                       "end": Object {
-                        "column": 14,
+                        "column": 12,
                         "line": 1,
                       },
                       "start": Object {
@@ -3659,13 +3522,13 @@ exports[`test/index.js TAP > *:has(> #bar@1.4.0) 1`] = `
                       "before": "",
                     },
                     "type": "id",
-                    "value": "bar@1.4.0",
+                    "value": "bar",
                   },
                 ],
                 "parent": <*ref_3>,
                 "source": Object {
                   "end": Object {
-                    "column": 19,
+                    "column": 13,
                     "line": 1,
                   },
                   "start": Object {
@@ -3690,7 +3553,7 @@ exports[`test/index.js TAP > *:has(> #bar@1.4.0) 1`] = `
           "parent": <*ref_1>,
           "source": Object {
             "end": Object {
-              "column": 19,
+              "column": 13,
               "line": 1,
             },
             "start": Object {
@@ -3710,7 +3573,7 @@ exports[`test/index.js TAP > *:has(> #bar@1.4.0) 1`] = `
       "parent": <*ref_4>,
       "source": Object {
         "end": Object {
-          "column": 19,
+          "column": 13,
           "line": 1,
         },
         "start": Object {
@@ -3727,7 +3590,7 @@ exports[`test/index.js TAP > *:has(> #bar@1.4.0) 1`] = `
   ],
   "source": Object {
     "end": Object {
-      "column": 19,
+      "column": 13,
       "line": 1,
     },
     "start": Object {
@@ -9295,7 +9158,7 @@ exports[`test/index.js TAP > :root > *.workspace 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > *:has(* > #bar@1.4.0) 1`] = `
+exports[`test/index.js TAP > :root > *:has(* > #bar) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -9429,7 +9292,7 @@ exports[`test/index.js TAP > :root > *:has(* > #bar@1.4.0) 1`] = `
                     "parent": <*ref_2>,
                     "source": Object {
                       "end": Object {
-                        "column": 24,
+                        "column": 22,
                         "line": 1,
                       },
                       "start": Object {
@@ -9443,13 +9306,13 @@ exports[`test/index.js TAP > :root > *:has(* > #bar@1.4.0) 1`] = `
                       "before": "",
                     },
                     "type": "id",
-                    "value": "bar@1.4.0",
+                    "value": "bar",
                   },
                 ],
                 "parent": <*ref_3>,
                 "source": Object {
                   "end": Object {
-                    "column": 29,
+                    "column": 23,
                     "line": 1,
                   },
                   "start": Object {
@@ -9474,7 +9337,7 @@ exports[`test/index.js TAP > :root > *:has(* > #bar@1.4.0) 1`] = `
           "parent": <*ref_1>,
           "source": Object {
             "end": Object {
-              "column": 29,
+              "column": 23,
               "line": 1,
             },
             "start": Object {
@@ -9494,7 +9357,7 @@ exports[`test/index.js TAP > :root > *:has(* > #bar@1.4.0) 1`] = `
       "parent": <*ref_4>,
       "source": Object {
         "end": Object {
-          "column": 29,
+          "column": 23,
           "line": 1,
         },
         "start": Object {
@@ -9511,7 +9374,7 @@ exports[`test/index.js TAP > :root > *:has(* > #bar@1.4.0) 1`] = `
   ],
   "source": Object {
     "end": Object {
-      "column": 29,
+      "column": 23,
       "line": 1,
     },
     "start": Object {
