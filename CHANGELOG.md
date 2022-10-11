@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.0.0](https://github.com/npm/query/compare/v2.0.0...v3.0.0) (2022-10-11)
+
+### ⚠️ BREAKING CHANGES
+
+* You can no longer select a version along with an name selector (i.e. `#npm@9.0.0`).  Use `#name:semver()` instead.
+
+### Features
+
+* [`cc088f7`](https://github.com/npm/query/commit/cc088f794af6076241dcb40627c3826dd69951fc) remove version parsing from #name selector (@wraithgar)
+
+### Dependencies
+
+* [`2b4e8f8`](https://github.com/npm/query/commit/2b4e8f85f58fe26d908149f6820a383c7e4d41d3) [#24](https://github.com/npm/query/pull/24) remove semver
+* [`d8a7c89`](https://github.com/npm/query/commit/d8a7c892459cac9474ac349b6b84d0517eef85a6) remove npm-package-arg
+
 ## [2.0.0](https://github.com/npm/query/compare/v1.2.0...v2.0.0) (2022-09-20)
 
 ### ⚠️ BREAKING CHANGES
