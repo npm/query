@@ -87,14 +87,25 @@ const checks = [
   [':semver(=1.4.0)'],
   [':semver(1.4.0 || 2.2.2)'],
   [':semver(1.0.0, [version])'],
+  [':semver([version], 1.0.0)'],
   [':semver(^1.0.0, [version])'],
+  [':semver([version], ^1.0.0)'],
   [':semver(1.0.0, [version], satisfies)'],
+  [':semver([version], 1.0.0, satisfies)'],
   [':semver(^1.0.0, [version], satisfies)'],
+  [':semver([version], ^1.0.0, satisfies)'],
   [':semver(1.0.0, :attr(engines, [node]))'],
+  [':semver(:attr(engines, [node]), 1.0.0)'],
   [':semver(^1.0.0, :attr(engines, [node]))'],
+  [':semver(:attr(engines, [node]), ^1.0.0)'],
   [':semver(1.0.0, :attr(engines, [node]), satisfies)'],
+  [':semver(:attr(engines, [node]), 1.0.0, satisfies)'],
   [':semver(^1.0.0, :attr(engines, [node]), satisfies)'],
+  [':semver(:attr(engines, [node]), satisfies)'],
   [':semver(1.0.0, :attr(engines, [node]), "satisfies")'],
+  [':semver(:attr(engines, [node]), 1.0.0, "satisfies")'],
+  [":semver(1.0.0, :attr(engines, [node]), 'satisfies')"],
+  [":semver(:attr(engines, [node]), 1.0.0, 'satisfies')"],
 
   // attr pseudo-class
   [':attr([name=dasher])'],
@@ -182,4 +193,17 @@ t.throws(
   () => parser(':attr(foo, bar)'),
   { code: 'EQUERYATTR' },
   'should throw on missing attribute matcher on :attr pseudo-class'
+)
+
+// bogus third param to :semver
+t.throws(
+  () => parser(':semver(14, [version], [version])'),
+  { code: 'ESEMVERFUNC' },
+  'should throw when third :semver param is not a tag or string'
+)
+
+t.throws(
+  () => parser(':semver([version], [version])'),
+  { code: 'ESEMVERVALUE' },
+  'should throw when neither of the first :semver params is a static value'
 )
