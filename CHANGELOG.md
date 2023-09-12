@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.0.1](https://github.com/npm/query/compare/v3.0.0...v3.0.1) (2023-09-12)
+
+### Bug Fixes
+
+* [`b9e5740`](https://github.com/npm/query/commit/b9e574088f53052c6d13fc0c212896184dc45a2f) [#31](https://github.com/npm/query/pull/31) allow semver arguments to be reversed (#31) (@nlf)
+
 ## [3.0.0](https://github.com/npm/query/compare/v2.0.0...v3.0.0) (2022-10-11)
 
 ### ⚠️ BREAKING CHANGES
