@@ -1,4 +1,5 @@
 'use strict'
+/* eslint-disable max-len */
 
 const t = require('tap')
 const { parser } = require('../lib/index.js')
@@ -125,6 +126,14 @@ const checks = [
   [':outdated'],
   [':outdated(any)'],
 
+  // :vuln pseudo
+  [':vuln'],
+  [':vuln([cwe])'],
+  [':vuln([severity=high])'],
+  [':vuln([severity=high],[severity=medium])'],
+  [':vuln([severity=high][severity=medium])'],
+  [':vuln([cwe=400],[severity=medium])'],
+
   // attribute matchers
   ['[name]'],
   ['[name=a]'],
@@ -188,6 +197,9 @@ const throws = [
   [':attr(foo, bar)', { code: 'EQUERYATTR' }, 'missing attribute matcher on :attr pseudo-class'],
   [':semver(14, [version], [version])', { code: 'ESEMVERFUNC' }, 'third :semver param is not a tag or string'],
   [':semver([version], [version])', { code: 'ESEMVERVALUE' }, 'should throw when neither of the first :semver params is a static value'],
+  [':vuln(.prod)', { code: 'EQUERYATTR' }, ':vuln pseudo-class only accepts attribute matchers'],
+  [':vuln([description=asdf])', { code: 'EQUERYATTR' }, ':vuln pseudo-class only matches "severity" and "cwe" attributes'],
+  [':vuln([severity~=medium])', { code: 'EQUERYATTR' }, ':vuln pseudo-class severity selector only accepts "=" operator'],
 ]
 
 t.test('queries', t => {
