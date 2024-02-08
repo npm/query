@@ -5,7 +5,11 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/index.js TAP > #a *:root 1`] = `
+exports[`test/index.js TAP queries  > must match snapshot 1`] = `
+Array []
+`
+
+exports[`test/index.js TAP queries #a *:root > #a *:root 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -137,7 +141,7 @@ exports[`test/index.js TAP > #a *:root 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #a > :root 1`] = `
+exports[`test/index.js TAP queries #a > :root > #a > :root 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -250,7 +254,7 @@ exports[`test/index.js TAP > #a > :root 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #a ~ :root 1`] = `
+exports[`test/index.js TAP queries #a ~ :root > #a ~ :root 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -363,7 +367,7 @@ exports[`test/index.js TAP > #a ~ :root 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #a, #bar:semver(2), #foo 1`] = `
+exports[`test/index.js TAP queries #a, #bar:semver(2), #foo > #a, #bar:semver(2), #foo 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -542,7 +546,7 @@ exports[`test/index.js TAP > #a, #bar:semver(2), #foo 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar 1`] = `
+exports[`test/index.js TAP queries #bar > #bar 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -609,7 +613,7 @@ exports[`test/index.js TAP > #bar 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar > * 1`] = `
+exports[`test/index.js TAP queries #bar > * > #bar > * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -721,7 +725,7 @@ exports[`test/index.js TAP > #bar > * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(*) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(*) > #bar:semver(*) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -816,7 +820,7 @@ exports[`test/index.js TAP > #bar:semver(*) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(1 || 2) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(1 || 2) > #bar:semver(1 || 2) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -911,7 +915,7 @@ exports[`test/index.js TAP > #bar:semver(1 || 2) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(1 || 2.0.0) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(1 || 2.0.0) > #bar:semver(1 || 2.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -1006,7 +1010,7 @@ exports[`test/index.js TAP > #bar:semver(1 || 2.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(1.0.0, :attr(engines, [node]), satisfies) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(1.0.0, :attr(engines, [node]), satisfies) > #bar:semver(1.0.0, :attr(engines, [node]), satisfies) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -1107,7 +1111,7 @@ exports[`test/index.js TAP > #bar:semver(1.0.0, :attr(engines, [node]), satisfie
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(1.4.0 || 2) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(1.4.0 || 2) > #bar:semver(1.4.0 || 2) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -1202,7 +1206,7 @@ exports[`test/index.js TAP > #bar:semver(1.4.0 || 2) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(1||2) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(1||2) > #bar:semver(1||2) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -1297,7 +1301,7 @@ exports[`test/index.js TAP > #bar:semver(1||2) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(2 - 3) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(2 - 3) > #bar:semver(2 - 3) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -1392,7 +1396,7 @@ exports[`test/index.js TAP > #bar:semver(2 - 3) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(2) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(2) > #bar:semver(2) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -1487,7 +1491,7 @@ exports[`test/index.js TAP > #bar:semver(2) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(2), #foo 1`] = `
+exports[`test/index.js TAP queries #bar:semver(2), #foo > #bar:semver(2), #foo 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -1624,7 +1628,7 @@ exports[`test/index.js TAP > #bar:semver(2), #foo 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(2.0) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(2.0) > #bar:semver(2.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -1719,7 +1723,7 @@ exports[`test/index.js TAP > #bar:semver(2.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(2.0.0 - 3.0.0) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(2.0.0 - 3.0.0) > #bar:semver(2.0.0 - 3.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -1814,7 +1818,7 @@ exports[`test/index.js TAP > #bar:semver(2.0.0 - 3.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(2.x) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(2.x) > #bar:semver(2.x) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -1909,7 +1913,7 @@ exports[`test/index.js TAP > #bar:semver(2.x) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(2.x.x) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(2.x.x) > #bar:semver(2.x.x) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -2004,7 +2008,7 @@ exports[`test/index.js TAP > #bar:semver(2.x.x) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(<3.0.0) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(<3.0.0) > #bar:semver(<3.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -2099,7 +2103,7 @@ exports[`test/index.js TAP > #bar:semver(<3.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(=2.0.0) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(=2.0.0) > #bar:semver(=2.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -2194,7 +2198,7 @@ exports[`test/index.js TAP > #bar:semver(=2.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(>1.5.0 <3.0.0) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(>1.5.0 <3.0.0) > #bar:semver(>1.5.0 <3.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -2289,7 +2293,7 @@ exports[`test/index.js TAP > #bar:semver(>1.5.0 <3.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(>=2.0.0) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(>=2.0.0) > #bar:semver(>=2.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -2384,7 +2388,7 @@ exports[`test/index.js TAP > #bar:semver(>=2.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(^1.0.0, :attr(engines, [node]), intersects) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(^1.0.0, :attr(engines, [node]), intersects) > #bar:semver(^1.0.0, :attr(engines, [node]), intersects) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -2485,7 +2489,7 @@ exports[`test/index.js TAP > #bar:semver(^1.0.0, :attr(engines, [node]), interse
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(^2.0.0) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(^2.0.0) > #bar:semver(^2.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -2580,7 +2584,7 @@ exports[`test/index.js TAP > #bar:semver(^2.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(^2.0.0-beta.0) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(^2.0.0-beta.0) > #bar:semver(^2.0.0-beta.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -2675,7 +2679,7 @@ exports[`test/index.js TAP > #bar:semver(^2.0.0-beta.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #bar:semver(~2.0.0) 1`] = `
+exports[`test/index.js TAP queries #bar:semver(~2.0.0) > #bar:semver(~2.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -2770,7 +2774,7 @@ exports[`test/index.js TAP > #bar:semver(~2.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > #ipsum 1`] = `
+exports[`test/index.js TAP queries #ipsum > #ipsum 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -2837,74 +2841,7 @@ exports[`test/index.js TAP > #ipsum 1`] = `
 }
 `
 
-exports[`test/index.js TAP > * 1`] = `
-&ref_2 Root {
-  "_error": Function (message, errorOptions),
-  "indexes": Object {},
-  "lastEach": 1,
-  "nodes": Array [
-    &ref_1 Selector {
-      "indexes": Object {},
-      "lastEach": 1,
-      "nodes": Array [
-        Universal {
-          "parent": <*ref_1>,
-          "source": Object {
-            "end": Object {
-              "column": 1,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 1,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 0,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "universal",
-          "value": "*",
-        },
-      ],
-      "parent": <*ref_2>,
-      "source": Object {
-        "end": Object {
-          "column": 1,
-          "line": 1,
-        },
-        "start": Object {
-          "column": 1,
-          "line": 1,
-        },
-      },
-      "spaces": Object {
-        "after": "",
-        "before": "",
-      },
-      "type": "selector",
-    },
-  ],
-  "source": Object {
-    "end": Object {
-      "column": 1,
-      "line": 1,
-    },
-    "start": Object {
-      "column": 1,
-      "line": 1,
-    },
-  },
-  "spaces": Object {
-    "after": "",
-    "before": "",
-  },
-  "type": "root",
-}
-`
-
-exports[`test/index.js TAP > * :root 1`] = `
+exports[`test/index.js TAP queries * :root > * :root 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -3016,7 +2953,74 @@ exports[`test/index.js TAP > * :root 1`] = `
 }
 `
 
-exports[`test/index.js TAP > * > * 1`] = `
+exports[`test/index.js TAP queries * > * 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Universal {
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 1,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "universal",
+          "value": "*",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 1,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 1,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries * > * > * > * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -3128,7 +3132,7 @@ exports[`test/index.js TAP > * > * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > * > :root 1`] = `
+exports[`test/index.js TAP queries * > :root > * > :root 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -3241,7 +3245,7 @@ exports[`test/index.js TAP > * > :root 1`] = `
 }
 `
 
-exports[`test/index.js TAP > *:has(* > #bar) 1`] = `
+exports[`test/index.js TAP queries *:has(* > #bar) > *:has(* > #bar) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -3427,7 +3431,7 @@ exports[`test/index.js TAP > *:has(* > #bar) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > *:has(> #bar) 1`] = `
+exports[`test/index.js TAP queries *:has(> #bar) > *:has(> #bar) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -3588,7 +3592,7 @@ exports[`test/index.js TAP > *:has(> #bar) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > *:root > *:empty:not(*[name^=a], #b) 1`] = `
+exports[`test/index.js TAP queries *:root > *:empty:not(*[name^=a], #b) > *:root > *:empty:not(*[name^=a], #b) 1`] = `
 &ref_5 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -3883,7 +3887,7 @@ exports[`test/index.js TAP > *:root > *:empty:not(*[name^=a], #b) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .bundled 1`] = `
+exports[`test/index.js TAP queries .bundled > .bundled 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -3951,7 +3955,7 @@ exports[`test/index.js TAP > .bundled 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .bundled ~ * 1`] = `
+exports[`test/index.js TAP queries .bundled ~ * > .bundled ~ * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -4064,7 +4068,7 @@ exports[`test/index.js TAP > .bundled ~ * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .bundled ~ :not(.workspace) 1`] = `
+exports[`test/index.js TAP queries .bundled ~ :not(.workspace) > .bundled ~ :not(.workspace) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -4232,7 +4236,7 @@ exports[`test/index.js TAP > .bundled ~ :not(.workspace) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .dev * 1`] = `
+exports[`test/index.js TAP queries .dev * > .dev * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -4344,7 +4348,7 @@ exports[`test/index.js TAP > .dev * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .dev 1`] = `
+exports[`test/index.js TAP queries .dev > .dev 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -4412,7 +4416,7 @@ exports[`test/index.js TAP > .dev 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .optional 1`] = `
+exports[`test/index.js TAP queries .optional > .optional 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -4480,7 +4484,7 @@ exports[`test/index.js TAP > .optional 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .peer 1`] = `
+exports[`test/index.js TAP queries .peer > .peer 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -4548,75 +4552,7 @@ exports[`test/index.js TAP > .peer 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .workspace 1`] = `
-&ref_2 Root {
-  "_error": Function (message, errorOptions),
-  "indexes": Object {},
-  "lastEach": 1,
-  "nodes": Array [
-    &ref_1 Selector {
-      "indexes": Object {},
-      "lastEach": 1,
-      "nodes": Array [
-        ClassName {
-          "_constructed": true,
-          "_value": "workspace",
-          "parent": <*ref_1>,
-          "source": Object {
-            "end": Object {
-              "column": 10,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 1,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 0,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "class",
-        },
-      ],
-      "parent": <*ref_2>,
-      "source": Object {
-        "end": Object {
-          "column": 10,
-          "line": 1,
-        },
-        "start": Object {
-          "column": 1,
-          "line": 1,
-        },
-      },
-      "spaces": Object {
-        "after": "",
-        "before": "",
-      },
-      "type": "selector",
-    },
-  ],
-  "source": Object {
-    "end": Object {
-      "column": 10,
-      "line": 1,
-    },
-    "start": Object {
-      "column": 1,
-      "line": 1,
-    },
-  },
-  "spaces": Object {
-    "after": "",
-    "before": "",
-  },
-  "type": "root",
-}
-`
-
-exports[`test/index.js TAP > .workspace > * 1`] = `
+exports[`test/index.js TAP queries .workspace > * > .workspace > * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -4729,7 +4665,75 @@ exports[`test/index.js TAP > .workspace > * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .workspace ~ * 1`] = `
+exports[`test/index.js TAP queries .workspace > .workspace 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        ClassName {
+          "_constructed": true,
+          "_value": "workspace",
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 10,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "class",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 10,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 10,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries .workspace ~ * > .workspace ~ * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -4842,7 +4846,7 @@ exports[`test/index.js TAP > .workspace ~ * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .workspace:has(* #lorem, ~ #b) 1`] = `
+exports[`test/index.js TAP queries .workspace:has(* #lorem, ~ #b) > .workspace:has(* #lorem, ~ #b) 1`] = `
 &ref_5 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5090,7 +5094,7 @@ exports[`test/index.js TAP > .workspace:has(* #lorem, ~ #b) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > .workspace:has(> * > #lorem) 1`] = `
+exports[`test/index.js TAP queries .workspace:has(> * > #lorem) > .workspace:has(> * > #lorem) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5297,7 +5301,7 @@ exports[`test/index.js TAP > .workspace:has(> * > #lorem) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr([keywords=lorem]) 1`] = `
+exports[`test/index.js TAP queries :attr([keywords=lorem]) > :attr([keywords=lorem]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5372,7 +5376,7 @@ exports[`test/index.js TAP > :attr([keywords=lorem]) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr([name=dasher i]) 1`] = `
+exports[`test/index.js TAP queries :attr([name=dasher i]) > :attr([name=dasher i]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5448,7 +5452,7 @@ exports[`test/index.js TAP > :attr([name=dasher i]) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr([name=dasher]) 1`] = `
+exports[`test/index.js TAP queries :attr([name=dasher]) > :attr([name=dasher]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5523,7 +5527,7 @@ exports[`test/index.js TAP > :attr([name=dasher]) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr(arbitrary, [foo$=oo]) 1`] = `
+exports[`test/index.js TAP queries :attr(arbitrary, [foo$=oo]) > :attr(arbitrary, [foo$=oo]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5600,7 +5604,7 @@ exports[`test/index.js TAP > :attr(arbitrary, [foo$=oo]) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr(arbitrary, [foo*=oo]) 1`] = `
+exports[`test/index.js TAP queries :attr(arbitrary, [foo*=oo]) > :attr(arbitrary, [foo*=oo]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5677,7 +5681,7 @@ exports[`test/index.js TAP > :attr(arbitrary, [foo*=oo]) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr(arbitrary, [foo|=oo]) 1`] = `
+exports[`test/index.js TAP queries :attr(arbitrary, [foo|=oo]) > :attr(arbitrary, [foo|=oo]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5754,7 +5758,7 @@ exports[`test/index.js TAP > :attr(arbitrary, [foo|=oo]) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr(arbitrary, foo, :attr(funding, [type=GH])) 1`] = `
+exports[`test/index.js TAP queries :attr(arbitrary, foo, :attr(funding, [type=GH])) > :attr(arbitrary, foo, :attr(funding, [type=GH])) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5834,7 +5838,7 @@ exports[`test/index.js TAP > :attr(arbitrary, foo, :attr(funding, [type=GH])) 1`
 }
 `
 
-exports[`test/index.js TAP > :attr(dependencies, :attr([bar="^1.0.0"])) 1`] = `
+exports[`test/index.js TAP queries :attr(dependencies, :attr([bar="^1.0.0"])) > :attr(dependencies, :attr([bar="^1.0.0"])) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5912,7 +5916,7 @@ exports[`test/index.js TAP > :attr(dependencies, :attr([bar="^1.0.0"])) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr(dependencies, [bar="^1.0.0"]) 1`] = `
+exports[`test/index.js TAP queries :attr(dependencies, [bar="^1.0.0"]) > :attr(dependencies, [bar="^1.0.0"]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -5989,7 +5993,7 @@ exports[`test/index.js TAP > :attr(dependencies, [bar="^1.0.0"]) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr(devDependencies, [@scoped/package]) 1`] = `
+exports[`test/index.js TAP queries :attr(devDependencies, [@scoped/package]) > :attr(devDependencies, [@scoped/package]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -6066,7 +6070,7 @@ exports[`test/index.js TAP > :attr(devDependencies, [@scoped/package]) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr(funding, :attr([type=GitHub i])) 1`] = `
+exports[`test/index.js TAP queries :attr(funding, :attr([type=GitHub i])) > :attr(funding, :attr([type=GitHub i])) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -6145,7 +6149,7 @@ exports[`test/index.js TAP > :attr(funding, :attr([type=GitHub i])) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :attr(funding, :attr([type=GitHub])) 1`] = `
+exports[`test/index.js TAP queries :attr(funding, :attr([type=GitHub])) > :attr(funding, :attr([type=GitHub])) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -6223,7 +6227,7 @@ exports[`test/index.js TAP > :attr(funding, :attr([type=GitHub])) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :empty 1`] = `
+exports[`test/index.js TAP queries :empty > :empty 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -6291,7 +6295,7 @@ exports[`test/index.js TAP > :empty 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :extraneous 1`] = `
+exports[`test/index.js TAP queries :extraneous > :extraneous 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -6359,7 +6363,7 @@ exports[`test/index.js TAP > :extraneous 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :invalid 1`] = `
+exports[`test/index.js TAP queries :invalid > :invalid 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -6427,7 +6431,7 @@ exports[`test/index.js TAP > :invalid 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :is(#a, #b) > * 1`] = `
+exports[`test/index.js TAP queries :is(#a, #b) > * > :is(#a, #b) > * 1`] = `
 &ref_5 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -6635,7 +6639,7 @@ exports[`test/index.js TAP > :is(#a, #b) > * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :is(*:semver(2.0.0), :semver(=2.0.0-beta.45)) 1`] = `
+exports[`test/index.js TAP queries :is(*:semver(2.0.0), :semver(=2.0.0-beta.45)) > :is(*:semver(2.0.0), :semver(=2.0.0-beta.45)) 1`] = `
 &ref_5 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -6834,7 +6838,7 @@ exports[`test/index.js TAP > :is(*:semver(2.0.0), :semver(=2.0.0-beta.45)) 1`] =
 }
 `
 
-exports[`test/index.js TAP > :link 1`] = `
+exports[`test/index.js TAP queries :link > :link 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -6902,7 +6906,7 @@ exports[`test/index.js TAP > :link 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :link 2`] = `
+exports[`test/index.js TAP queries :link > :link 2`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -6970,7 +6974,7 @@ exports[`test/index.js TAP > :link 2`] = `
 }
 `
 
-exports[`test/index.js TAP > :missing 1`] = `
+exports[`test/index.js TAP queries :missing > :missing 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7038,7 +7042,7 @@ exports[`test/index.js TAP > :missing 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :not(#foo) 1`] = `
+exports[`test/index.js TAP queries :not(#foo) > :not(#foo) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7159,7 +7163,7 @@ exports[`test/index.js TAP > :not(#foo) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :not(:not(:link)) 1`] = `
+exports[`test/index.js TAP queries :not(:not(:link)) > :not(:not(:link)) 1`] = `
 &ref_6 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7335,7 +7339,7 @@ exports[`test/index.js TAP > :not(:not(:link)) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :outdated 1`] = `
+exports[`test/index.js TAP queries :outdated > :outdated 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7403,7 +7407,7 @@ exports[`test/index.js TAP > :outdated 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :outdated(any) 1`] = `
+exports[`test/index.js TAP queries :outdated(any) > :outdated(any) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7472,7 +7476,7 @@ exports[`test/index.js TAP > :outdated(any) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :path() 1`] = `
+exports[`test/index.js TAP queries :path() > :path() 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7541,7 +7545,7 @@ exports[`test/index.js TAP > :path() 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :path(*) 1`] = `
+exports[`test/index.js TAP queries :path(*) > :path(*) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7610,7 +7614,7 @@ exports[`test/index.js TAP > :path(*) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :path(**/bar) 1`] = `
+exports[`test/index.js TAP queries :path(**/bar) > :path(**/bar) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7679,7 +7683,7 @@ exports[`test/index.js TAP > :path(**/bar) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :path(./node_modules/bar) 1`] = `
+exports[`test/index.js TAP queries :path(./node_modules/bar) > :path(./node_modules/bar) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7748,7 +7752,7 @@ exports[`test/index.js TAP > :path(./node_modules/bar) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :path(node_modules/*) 1`] = `
+exports[`test/index.js TAP queries :path(node_modules/*) > :path(node_modules/*) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7817,7 +7821,7 @@ exports[`test/index.js TAP > :path(node_modules/*) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :path(node_modules/bar) 1`] = `
+exports[`test/index.js TAP queries :path(node_modules/bar) > :path(node_modules/bar) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7886,7 +7890,7 @@ exports[`test/index.js TAP > :path(node_modules/bar) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :path(node_modules/foo/node_modules/bar) 1`] = `
+exports[`test/index.js TAP queries :path(node_modules/foo/node_modules/bar) > :path(node_modules/foo/node_modules/bar) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -7955,7 +7959,7 @@ exports[`test/index.js TAP > :path(node_modules/foo/node_modules/bar) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :private 1`] = `
+exports[`test/index.js TAP queries :private > :private 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -8023,7 +8027,7 @@ exports[`test/index.js TAP > :private 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root #bar > * 1`] = `
+exports[`test/index.js TAP queries :root #bar > * > :root #bar > * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -8180,7 +8184,7 @@ exports[`test/index.js TAP > :root #bar > * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root #bar:semver(1) > * 1`] = `
+exports[`test/index.js TAP queries :root #bar:semver(1) > * > :root #bar:semver(1) > * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -8365,7 +8369,7 @@ exports[`test/index.js TAP > :root #bar:semver(1) > * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root #bar:semver(1) ~ * 1`] = `
+exports[`test/index.js TAP queries :root #bar:semver(1) ~ * > :root #bar:semver(1) ~ * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -8550,188 +8554,7 @@ exports[`test/index.js TAP > :root #bar:semver(1) ~ * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root 1`] = `
-&ref_2 Root {
-  "_error": Function (message, errorOptions),
-  "indexes": Object {},
-  "lastEach": 1,
-  "nodes": Array [
-    &ref_1 Selector {
-      "indexes": Object {},
-      "lastEach": 1,
-      "nodes": Array [
-        Pseudo {
-          "nodes": Array [],
-          "parent": <*ref_1>,
-          "source": Object {
-            "end": Object {
-              "column": 5,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 1,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 0,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "pseudo",
-          "value": ":root",
-        },
-      ],
-      "parent": <*ref_2>,
-      "source": Object {
-        "end": Object {
-          "column": 5,
-          "line": 1,
-        },
-        "start": Object {
-          "column": 1,
-          "line": 1,
-        },
-      },
-      "spaces": Object {
-        "after": "",
-        "before": "",
-      },
-      "type": "selector",
-    },
-  ],
-  "source": Object {
-    "end": Object {
-      "column": 5,
-      "line": 1,
-    },
-    "start": Object {
-      "column": 1,
-      "line": 1,
-    },
-  },
-  "spaces": Object {
-    "after": "",
-    "before": "",
-  },
-  "type": "root",
-}
-`
-
-exports[`test/index.js TAP > :root > #bar 1`] = `
-&ref_2 Root {
-  "_error": Function (message, errorOptions),
-  "indexes": Object {},
-  "lastEach": 1,
-  "nodes": Array [
-    &ref_1 Selector {
-      "indexes": Object {},
-      "lastEach": 1,
-      "nodes": Array [
-        Pseudo {
-          "nodes": Array [],
-          "parent": <*ref_1>,
-          "source": Object {
-            "end": Object {
-              "column": 5,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 1,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 0,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "pseudo",
-          "value": ":root",
-        },
-        Combinator {
-          "parent": <*ref_1>,
-          "raws": Object {
-            "spaces": Object {
-              "before": undefined,
-            },
-          },
-          "source": Object {
-            "end": Object {
-              "column": 7,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 7,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 6,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "combinator",
-          "value": ">",
-        },
-        ID {
-          "parent": <*ref_1>,
-          "source": Object {
-            "end": Object {
-              "column": 12,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 9,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 8,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "id",
-          "value": "bar",
-        },
-      ],
-      "parent": <*ref_2>,
-      "source": Object {
-        "end": Object {
-          "column": 12,
-          "line": 1,
-        },
-        "start": Object {
-          "column": 1,
-          "line": 1,
-        },
-      },
-      "spaces": Object {
-        "after": "",
-        "before": "",
-      },
-      "type": "selector",
-    },
-  ],
-  "source": Object {
-    "end": Object {
-      "column": 12,
-      "line": 1,
-    },
-    "start": Object {
-      "column": 1,
-      "line": 1,
-    },
-  },
-  "spaces": Object {
-    "after": "",
-    "before": "",
-  },
-  "type": "root",
-}
-`
-
-exports[`test/index.js TAP > :root > #bar > * 1`] = `
+exports[`test/index.js TAP queries :root > #bar > * > :root > #bar > * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -8889,7 +8712,120 @@ exports[`test/index.js TAP > :root > #bar > * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > * 1`] = `
+exports[`test/index.js TAP queries :root > #bar > :root > #bar 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 5,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":root",
+        },
+        Combinator {
+          "parent": <*ref_1>,
+          "raws": Object {
+            "spaces": Object {
+              "before": undefined,
+            },
+          },
+          "source": Object {
+            "end": Object {
+              "column": 7,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 7,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 6,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "combinator",
+          "value": ">",
+        },
+        ID {
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 12,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 9,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 8,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "id",
+          "value": "bar",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 12,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 12,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries :root > * > :root > * 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -9002,7 +8938,7 @@ exports[`test/index.js TAP > :root > * 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > *.workspace 1`] = `
+exports[`test/index.js TAP queries :root > *.workspace > :root > *.workspace 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -9136,7 +9072,7 @@ exports[`test/index.js TAP > :root > *.workspace 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > *:has(* > #bar) 1`] = `
+exports[`test/index.js TAP queries :root > *:has(* > #bar) > :root > *:has(* > #bar) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -9368,7 +9304,7 @@ exports[`test/index.js TAP > :root > *:has(* > #bar) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > *:is(.prod:not(:empty), .dev > [name=bar]) > * 1`] = `
+exports[`test/index.js TAP queries :root > *:is(.prod:not(:empty), .dev > [name=bar]) > * > :root > *:is(.prod:not(:empty), .dev > [name=bar]) > * 1`] = `
 &ref_7 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -9769,121 +9705,7 @@ exports[`test/index.js TAP > :root > *:is(.prod:not(:empty), .dev > [name=bar]) 
 }
 `
 
-exports[`test/index.js TAP > :root > .workspace 1`] = `
-&ref_2 Root {
-  "_error": Function (message, errorOptions),
-  "indexes": Object {},
-  "lastEach": 1,
-  "nodes": Array [
-    &ref_1 Selector {
-      "indexes": Object {},
-      "lastEach": 1,
-      "nodes": Array [
-        Pseudo {
-          "nodes": Array [],
-          "parent": <*ref_1>,
-          "source": Object {
-            "end": Object {
-              "column": 5,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 1,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 0,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "pseudo",
-          "value": ":root",
-        },
-        Combinator {
-          "parent": <*ref_1>,
-          "raws": Object {
-            "spaces": Object {
-              "before": undefined,
-            },
-          },
-          "source": Object {
-            "end": Object {
-              "column": 7,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 7,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 6,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "combinator",
-          "value": ">",
-        },
-        ClassName {
-          "_constructed": true,
-          "_value": "workspace",
-          "parent": <*ref_1>,
-          "source": Object {
-            "end": Object {
-              "column": 18,
-              "line": 1,
-            },
-            "start": Object {
-              "column": 9,
-              "line": 1,
-            },
-          },
-          "sourceIndex": 8,
-          "spaces": Object {
-            "after": "",
-            "before": "",
-          },
-          "type": "class",
-        },
-      ],
-      "parent": <*ref_2>,
-      "source": Object {
-        "end": Object {
-          "column": 18,
-          "line": 1,
-        },
-        "start": Object {
-          "column": 1,
-          "line": 1,
-        },
-      },
-      "spaces": Object {
-        "after": "",
-        "before": "",
-      },
-      "type": "selector",
-    },
-  ],
-  "source": Object {
-    "end": Object {
-      "column": 18,
-      "line": 1,
-    },
-    "start": Object {
-      "column": 1,
-      "line": 1,
-    },
-  },
-  "spaces": Object {
-    "after": "",
-    "before": "",
-  },
-  "type": "root",
-}
-`
-
-exports[`test/index.js TAP > :root > .workspace > *:not(#bar) 1`] = `
+exports[`test/index.js TAP queries :root > .workspace > *:not(#bar) > :root > .workspace > *:not(#bar) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -10116,7 +9938,121 @@ exports[`test/index.js TAP > :root > .workspace > *:not(#bar) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > .workspace:not(#b) 1`] = `
+exports[`test/index.js TAP queries :root > .workspace > :root > .workspace 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 5,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":root",
+        },
+        Combinator {
+          "parent": <*ref_1>,
+          "raws": Object {
+            "spaces": Object {
+              "before": undefined,
+            },
+          },
+          "source": Object {
+            "end": Object {
+              "column": 7,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 7,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 6,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "combinator",
+          "value": ">",
+        },
+        ClassName {
+          "_constructed": true,
+          "_value": "workspace",
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 18,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 9,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 8,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "class",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 18,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 18,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries :root > .workspace:not(#b) > :root > .workspace:not(#b) 1`] = `
 &ref_4 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -10304,7 +10240,7 @@ exports[`test/index.js TAP > :root > .workspace:not(#b) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > .workspace[name=a] 1`] = `
+exports[`test/index.js TAP queries :root > .workspace[name=a] > :root > .workspace[name=a] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -10443,7 +10379,7 @@ exports[`test/index.js TAP > :root > .workspace[name=a] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > .workspace[name=a][version=1.0.0] 1`] = `
+exports[`test/index.js TAP queries :root > .workspace[name=a][version=1.0.0] > :root > .workspace[name=a][version=1.0.0] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -10607,7 +10543,7 @@ exports[`test/index.js TAP > :root > .workspace[name=a][version=1.0.0] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > .workspace[version=1.0.0] 1`] = `
+exports[`test/index.js TAP queries :root > .workspace[version=1.0.0] > :root > .workspace[version=1.0.0] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -10746,7 +10682,7 @@ exports[`test/index.js TAP > :root > .workspace[version=1.0.0] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > :empty 1`] = `
+exports[`test/index.js TAP queries :root > :empty > :root > :empty 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -10860,7 +10796,75 @@ exports[`test/index.js TAP > :root > :empty 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > :root 1`] = `
+exports[`test/index.js TAP queries :root > :root 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 5,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":root",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 5,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 5,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries :root > :root > :root > :root 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -10974,7 +10978,7 @@ exports[`test/index.js TAP > :root > :root 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root > [name=bar] 1`] = `
+exports[`test/index.js TAP queries :root > [name=bar] > :root > [name=bar] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11092,7 +11096,7 @@ exports[`test/index.js TAP > :root > [name=bar] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :root, :root 1`] = `
+exports[`test/index.js TAP queries :root, :root > :root, :root 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11203,7 +11207,7 @@ exports[`test/index.js TAP > :root, :root 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :scope 1`] = `
+exports[`test/index.js TAP queries :scope > :scope 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11271,7 +11275,7 @@ exports[`test/index.js TAP > :scope 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver() 1`] = `
+exports[`test/index.js TAP queries :semver() > :semver() 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11346,7 +11350,7 @@ exports[`test/index.js TAP > :semver() 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(*) 1`] = `
+exports[`test/index.js TAP queries :semver(*) > :semver(*) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11421,7 +11425,7 @@ exports[`test/index.js TAP > :semver(*) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node])) 1`] = `
+exports[`test/index.js TAP queries :semver(1.0.0, :attr(engines, [node])) > :semver(1.0.0, :attr(engines, [node])) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11501,7 +11505,7 @@ exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node])) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node]), "satisfies") 1`] = `
+exports[`test/index.js TAP queries :semver(1.0.0, :attr(engines, [node]), "satisfies") > :semver(1.0.0, :attr(engines, [node]), "satisfies") 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11582,7 +11586,7 @@ exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node]), "satisfies")
 }
 `
 
-exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node]), 'satisfies') 1`] = `
+exports[`test/index.js TAP queries :semver(1.0.0, :attr(engines, [node]), 'satisfies') > :semver(1.0.0, :attr(engines, [node]), 'satisfies') 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11663,7 +11667,7 @@ exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node]), 'satisfies')
 }
 `
 
-exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node]), satisfies) 1`] = `
+exports[`test/index.js TAP queries :semver(1.0.0, :attr(engines, [node]), satisfies) > :semver(1.0.0, :attr(engines, [node]), satisfies) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11744,7 +11748,7 @@ exports[`test/index.js TAP > :semver(1.0.0, :attr(engines, [node]), satisfies) 1
 }
 `
 
-exports[`test/index.js TAP > :semver(1.0.0, [version]) 1`] = `
+exports[`test/index.js TAP queries :semver(1.0.0, [version]) > :semver(1.0.0, [version]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11821,7 +11825,7 @@ exports[`test/index.js TAP > :semver(1.0.0, [version]) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(1.0.0, [version], satisfies) 1`] = `
+exports[`test/index.js TAP queries :semver(1.0.0, [version], satisfies) > :semver(1.0.0, [version], satisfies) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11899,7 +11903,7 @@ exports[`test/index.js TAP > :semver(1.0.0, [version], satisfies) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(1.4.0 || 2.2.2) 1`] = `
+exports[`test/index.js TAP queries :semver(1.4.0 || 2.2.2) > :semver(1.4.0 || 2.2.2) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -11974,7 +11978,7 @@ exports[`test/index.js TAP > :semver(1.4.0 || 2.2.2) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(2 - 3) 1`] = `
+exports[`test/index.js TAP queries :semver(2 - 3) > :semver(2 - 3) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12049,7 +12053,7 @@ exports[`test/index.js TAP > :semver(2 - 3) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(2.0.0) 1`] = `
+exports[`test/index.js TAP queries :semver(2.0.0) > :semver(2.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12124,7 +12128,7 @@ exports[`test/index.js TAP > :semver(2.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(:attr(engines, [node]), 1.0.0) 1`] = `
+exports[`test/index.js TAP queries :semver(:attr(engines, [node]), 1.0.0) > :semver(:attr(engines, [node]), 1.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12204,7 +12208,7 @@ exports[`test/index.js TAP > :semver(:attr(engines, [node]), 1.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(:attr(engines, [node]), 1.0.0, "satisfies") 1`] = `
+exports[`test/index.js TAP queries :semver(:attr(engines, [node]), 1.0.0, "satisfies") > :semver(:attr(engines, [node]), 1.0.0, "satisfies") 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12285,7 +12289,7 @@ exports[`test/index.js TAP > :semver(:attr(engines, [node]), 1.0.0, "satisfies")
 }
 `
 
-exports[`test/index.js TAP > :semver(:attr(engines, [node]), 1.0.0, 'satisfies') 1`] = `
+exports[`test/index.js TAP queries :semver(:attr(engines, [node]), 1.0.0, 'satisfies') > :semver(:attr(engines, [node]), 1.0.0, 'satisfies') 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12366,7 +12370,7 @@ exports[`test/index.js TAP > :semver(:attr(engines, [node]), 1.0.0, 'satisfies')
 }
 `
 
-exports[`test/index.js TAP > :semver(:attr(engines, [node]), 1.0.0, satisfies) 1`] = `
+exports[`test/index.js TAP queries :semver(:attr(engines, [node]), 1.0.0, satisfies) > :semver(:attr(engines, [node]), 1.0.0, satisfies) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12447,7 +12451,7 @@ exports[`test/index.js TAP > :semver(:attr(engines, [node]), 1.0.0, satisfies) 1
 }
 `
 
-exports[`test/index.js TAP > :semver(:attr(engines, [node]), ^1.0.0) 1`] = `
+exports[`test/index.js TAP queries :semver(:attr(engines, [node]), ^1.0.0) > :semver(:attr(engines, [node]), ^1.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12527,7 +12531,7 @@ exports[`test/index.js TAP > :semver(:attr(engines, [node]), ^1.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(:attr(engines, [node]), satisfies) 1`] = `
+exports[`test/index.js TAP queries :semver(:attr(engines, [node]), satisfies) > :semver(:attr(engines, [node]), satisfies) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12607,7 +12611,7 @@ exports[`test/index.js TAP > :semver(:attr(engines, [node]), satisfies) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(=1.4.0) 1`] = `
+exports[`test/index.js TAP queries :semver(=1.4.0) > :semver(=1.4.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12682,7 +12686,7 @@ exports[`test/index.js TAP > :semver(=1.4.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(>=2) 1`] = `
+exports[`test/index.js TAP queries :semver(>=2) > :semver(>=2) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12757,7 +12761,7 @@ exports[`test/index.js TAP > :semver(>=2) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver([version], 1.0.0) 1`] = `
+exports[`test/index.js TAP queries :semver([version], 1.0.0) > :semver([version], 1.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12834,7 +12838,7 @@ exports[`test/index.js TAP > :semver([version], 1.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver([version], 1.0.0, satisfies) 1`] = `
+exports[`test/index.js TAP queries :semver([version], 1.0.0, satisfies) > :semver([version], 1.0.0, satisfies) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12912,7 +12916,7 @@ exports[`test/index.js TAP > :semver([version], 1.0.0, satisfies) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver([version], ^1.0.0) 1`] = `
+exports[`test/index.js TAP queries :semver([version], ^1.0.0) > :semver([version], ^1.0.0) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -12989,7 +12993,7 @@ exports[`test/index.js TAP > :semver([version], ^1.0.0) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver([version], ^1.0.0, satisfies) 1`] = `
+exports[`test/index.js TAP queries :semver([version], ^1.0.0, satisfies) > :semver([version], ^1.0.0, satisfies) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13067,7 +13071,7 @@ exports[`test/index.js TAP > :semver([version], ^1.0.0, satisfies) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(^1.0.0, :attr(engines, [node])) 1`] = `
+exports[`test/index.js TAP queries :semver(^1.0.0, :attr(engines, [node])) > :semver(^1.0.0, :attr(engines, [node])) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13147,7 +13151,7 @@ exports[`test/index.js TAP > :semver(^1.0.0, :attr(engines, [node])) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(^1.0.0, :attr(engines, [node]), satisfies) 1`] = `
+exports[`test/index.js TAP queries :semver(^1.0.0, :attr(engines, [node]), satisfies) > :semver(^1.0.0, :attr(engines, [node]), satisfies) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13228,7 +13232,7 @@ exports[`test/index.js TAP > :semver(^1.0.0, :attr(engines, [node]), satisfies) 
 }
 `
 
-exports[`test/index.js TAP > :semver(^1.0.0, [version]) 1`] = `
+exports[`test/index.js TAP queries :semver(^1.0.0, [version]) > :semver(^1.0.0, [version]) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13305,7 +13309,7 @@ exports[`test/index.js TAP > :semver(^1.0.0, [version]) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(^1.0.0, [version], satisfies) 1`] = `
+exports[`test/index.js TAP queries :semver(^1.0.0, [version], satisfies) > :semver(^1.0.0, [version], satisfies) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13383,7 +13387,7 @@ exports[`test/index.js TAP > :semver(^1.0.0, [version], satisfies) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :semver(~2.0.x) 1`] = `
+exports[`test/index.js TAP queries :semver(~2.0.x) > :semver(~2.0.x) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13458,7 +13462,7 @@ exports[`test/index.js TAP > :semver(~2.0.x) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :type() 1`] = `
+exports[`test/index.js TAP queries :type() > :type() 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13527,7 +13531,7 @@ exports[`test/index.js TAP > :type() 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :type(alias) 1`] = `
+exports[`test/index.js TAP queries :type(alias) > :type(alias) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13596,7 +13600,7 @@ exports[`test/index.js TAP > :type(alias) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :type(git) 1`] = `
+exports[`test/index.js TAP queries :type(git) > :type(git) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13665,7 +13669,7 @@ exports[`test/index.js TAP > :type(git) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :type(range) 1`] = `
+exports[`test/index.js TAP queries :type(range) > :type(range) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13734,7 +13738,7 @@ exports[`test/index.js TAP > :type(range) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > :type(tag) 1`] = `
+exports[`test/index.js TAP queries :type(tag) > :type(tag) 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13803,7 +13807,298 @@ exports[`test/index.js TAP > :type(tag) 1`] = `
 }
 `
 
-exports[`test/index.js TAP > > #a 1`] = `
+exports[`test/index.js TAP queries :vuln > :vuln 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 5,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":vuln",
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 5,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 5,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries :vuln([cwe=400],[severity=medium]) > :vuln([cwe=400],[severity=medium]) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 34,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":vuln",
+          "vulns": Object {
+            "cwe": Array [
+              "400",
+            ],
+            "severity": Array [
+              "medium",
+            ],
+          },
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 34,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 34,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries :vuln([severity=high]) > :vuln([severity=high]) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 22,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":vuln",
+          "vulns": Object {
+            "severity": Array [
+              "high",
+            ],
+          },
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 22,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 22,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries :vuln([severity=high],[severity=medium]) > :vuln([severity=high],[severity=medium]) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 40,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":vuln",
+          "vulns": Object {
+            "severity": Array [
+              "high",
+              "medium",
+            ],
+          },
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 40,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 40,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries > #a > > #a 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13890,7 +14185,7 @@ exports[`test/index.js TAP > > #a 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [arbitrary^=foo] 1`] = `
+exports[`test/index.js TAP queries [arbitrary^=foo] > [arbitrary^=foo] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -13962,7 +14257,7 @@ exports[`test/index.js TAP > [arbitrary^=foo] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [description] 1`] = `
+exports[`test/index.js TAP queries [description] > [description] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14031,7 +14326,7 @@ exports[`test/index.js TAP > [description] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [description~=best] 1`] = `
+exports[`test/index.js TAP queries [description~=best] > [description~=best] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14103,7 +14398,7 @@ exports[`test/index.js TAP > [description~=best] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [description~=ever] 1`] = `
+exports[`test/index.js TAP queries [description~=ever] > [description~=ever] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14175,7 +14470,7 @@ exports[`test/index.js TAP > [description~=ever] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [name$=oo] 1`] = `
+exports[`test/index.js TAP queries [name$=oo] > [name$=oo] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14247,7 +14542,7 @@ exports[`test/index.js TAP > [name$=oo] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [name*=a] 1`] = `
+exports[`test/index.js TAP queries [name*=a] > [name*=a] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14319,7 +14614,7 @@ exports[`test/index.js TAP > [name*=a] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [name=@npmcli/abbrev] 1`] = `
+exports[`test/index.js TAP queries [name=@npmcli/abbrev] > [name=@npmcli/abbrev] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14393,7 +14688,7 @@ exports[`test/index.js TAP > [name=@npmcli/abbrev] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [name=a] 1`] = `
+exports[`test/index.js TAP queries [name=a] > [name=a] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14465,7 +14760,7 @@ exports[`test/index.js TAP > [name=a] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [name=a], *[name=b] 1`] = `
+exports[`test/index.js TAP queries [name=a], *[name=b] > [name=a], *[name=b] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14604,7 +14899,7 @@ exports[`test/index.js TAP > [name=a], *[name=b] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [name=a], [name=b] 1`] = `
+exports[`test/index.js TAP queries [name=a], [name=b] > [name=a], [name=b] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14723,7 +15018,7 @@ exports[`test/index.js TAP > [name=a], [name=b] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [name] 1`] = `
+exports[`test/index.js TAP queries [name] > [name] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14792,7 +15087,7 @@ exports[`test/index.js TAP > [name] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [name^=a] 1`] = `
+exports[`test/index.js TAP queries [name^=a] > [name^=a] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14864,7 +15159,7 @@ exports[`test/index.js TAP > [name^=a] 1`] = `
 }
 `
 
-exports[`test/index.js TAP > [name|=dash] 1`] = `
+exports[`test/index.js TAP queries [name|=dash] > [name|=dash] 1`] = `
 &ref_2 Root {
   "_error": Function (message, errorOptions),
   "indexes": Object {},
@@ -14934,8 +15229,4 @@ exports[`test/index.js TAP > [name|=dash] 1`] = `
   },
   "type": "root",
 }
-`
-
-exports[`test/index.js TAP > must match snapshot 1`] = `
-Array []
 `
