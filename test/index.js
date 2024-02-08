@@ -184,26 +184,28 @@ const checks = [
   ['#a, #bar:semver(2), #foo'],
 ]
 
-for (const [query] of checks) {
-  t.matchSnapshot(parser(query), query)
-}
+const throws = [
+  [':attr(foo, bar)', { code: 'EQUERYATTR' }, 'missing attribute matcher on :attr pseudo-class'],
+  [':semver(14, [version], [version])', { code: 'ESEMVERFUNC' }, 'third :semver param is not a tag or string'],
+  [':semver([version], [version])', { code: 'ESEMVERVALUE' }, 'should throw when neither of the first :semver params is a static value'],
+]
 
-// missing attribute matcher on :attr
-t.throws(
-  () => parser(':attr(foo, bar)'),
-  { code: 'EQUERYATTR' },
-  'should throw on missing attribute matcher on :attr pseudo-class'
-)
+t.test('queries', t => {
+  for (const [query] of checks) {
+    t.test(query, t => {
+      t.matchSnapshot(parser(query), query)
+      t.end()
+    })
+  }
+  t.end()
+})
 
-// bogus third param to :semver
-t.throws(
-  () => parser(':semver(14, [version], [version])'),
-  { code: 'ESEMVERFUNC' },
-  'should throw when third :semver param is not a tag or string'
-)
-
-t.throws(
-  () => parser(':semver([version], [version])'),
-  { code: 'ESEMVERVALUE' },
-  'should throw when neither of the first :semver params is a static value'
-)
+t.test('throws', t => {
+  for (const [query, err, msg] of throws) {
+    t.test(query, t => {
+      t.throws(() => parser(query), err, msg)
+      t.end()
+    })
+  }
+  t.end()
+})
