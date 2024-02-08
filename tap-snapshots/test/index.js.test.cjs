@@ -13905,14 +13905,18 @@ exports[`test/index.js TAP queries :vuln([cwe=400],[severity=medium]) > :vuln([c
           },
           "type": "pseudo",
           "value": ":vuln",
-          "vulns": Object {
-            "cwe": Array [
-              "400",
-            ],
-            "severity": Array [
-              "medium",
-            ],
-          },
+          "vulns": Array [
+            Object {
+              "cwe": Array [
+                "400",
+              ],
+            },
+            Object {
+              "severity": Array [
+                "medium",
+              ],
+            },
+          ],
         },
       ],
       "parent": <*ref_2>,
@@ -13936,6 +13940,81 @@ exports[`test/index.js TAP queries :vuln([cwe=400],[severity=medium]) > :vuln([c
   "source": Object {
     "end": Object {
       "column": 34,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries :vuln([cwe]) > :vuln([cwe]) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 12,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":vuln",
+          "vulns": Array [
+            Object {
+              "cwe": Array [
+                "*",
+              ],
+            },
+          ],
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 12,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 12,
       "line": 1,
     },
     "start": Object {
@@ -13981,11 +14060,13 @@ exports[`test/index.js TAP queries :vuln([severity=high]) > :vuln([severity=high
           },
           "type": "pseudo",
           "value": ":vuln",
-          "vulns": Object {
-            "severity": Array [
-              "high",
-            ],
-          },
+          "vulns": Array [
+            Object {
+              "severity": Array [
+                "high",
+              ],
+            },
+          ],
         },
       ],
       "parent": <*ref_2>,
@@ -14054,12 +14135,18 @@ exports[`test/index.js TAP queries :vuln([severity=high],[severity=medium]) > :v
           },
           "type": "pseudo",
           "value": ":vuln",
-          "vulns": Object {
-            "severity": Array [
-              "high",
-              "medium",
-            ],
-          },
+          "vulns": Array [
+            Object {
+              "severity": Array [
+                "high",
+              ],
+            },
+            Object {
+              "severity": Array [
+                "medium",
+              ],
+            },
+          ],
         },
       ],
       "parent": <*ref_2>,
@@ -14083,6 +14170,82 @@ exports[`test/index.js TAP queries :vuln([severity=high],[severity=medium]) > :v
   "source": Object {
     "end": Object {
       "column": 40,
+      "line": 1,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+    },
+  },
+  "spaces": Object {
+    "after": "",
+    "before": "",
+  },
+  "type": "root",
+}
+`
+
+exports[`test/index.js TAP queries :vuln([severity=high][severity=medium]) > :vuln([severity=high][severity=medium]) 1`] = `
+&ref_2 Root {
+  "_error": Function (message, errorOptions),
+  "indexes": Object {},
+  "lastEach": 1,
+  "nodes": Array [
+    &ref_1 Selector {
+      "indexes": Object {},
+      "lastEach": 1,
+      "nodes": Array [
+        Pseudo {
+          "nodes": Array [],
+          "parent": <*ref_1>,
+          "source": Object {
+            "end": Object {
+              "column": 39,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 1,
+            },
+          },
+          "sourceIndex": 0,
+          "spaces": Object {
+            "after": "",
+            "before": "",
+          },
+          "type": "pseudo",
+          "value": ":vuln",
+          "vulns": Array [
+            Object {
+              "severity": Array [
+                "high",
+                "medium",
+              ],
+            },
+          ],
+        },
+      ],
+      "parent": <*ref_2>,
+      "source": Object {
+        "end": Object {
+          "column": 39,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 1,
+        },
+      },
+      "spaces": Object {
+        "after": "",
+        "before": "",
+      },
+      "type": "selector",
+    },
+  ],
+  "source": Object {
+    "end": Object {
+      "column": 39,
       "line": 1,
     },
     "start": Object {
