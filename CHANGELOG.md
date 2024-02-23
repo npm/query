@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.1.0](https://github.com/npm/query/compare/v3.0.1...v3.1.0) (2024-02-23)
+
+### Features
+
+* [`5541137`](https://github.com/npm/query/commit/5541137875fd476e51bf213a84480822710cf959) [#65](https://github.com/npm/query/pull/65) add :vuln pseudo class (@wraithgar)
+
+### Chores
+
+* [`e0d574d`](https://github.com/npm/query/commit/e0d574d6be929696d3133c3cff39fbdd4f6f2bf1) [#65](https://github.com/npm/query/pull/65) namespace tests (@wraithgar)
+* [`8be927d`](https://github.com/npm/query/commit/8be927d62bc92d85d04e4f731232f0d7fb8fab39) [#63](https://github.com/npm/query/pull/63) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`65fffaa`](https://github.com/npm/query/commit/65fffaa371325990e5c81292df72de9e0c21472a) [#63](https://github.com/npm/query/pull/63) bump @npmcli/template-oss from 4.21.1 to 4.21.3 (@dependabot[bot])
+* [`ea880df`](https://github.com/npm/query/commit/ea880df8c79bba7e37e708a8b541c0a39226d240) [#60](https://github.com/npm/query/pull/60) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`ce05634`](https://github.com/npm/query/commit/ce0563422284946ec2f526cd0549b23c172bd93d) [#60](https://github.com/npm/query/pull/60) bump @npmcli/template-oss from 4.19.0 to 4.21.1 (@dependabot[bot])
+* [`2c037c8`](https://github.com/npm/query/commit/2c037c8d7b519d841f97eb73c19da3772f473a4f) [#42](https://github.com/npm/query/pull/42) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`57eb5db`](https://github.com/npm/query/commit/57eb5db6382f01e3388bacf2b0361e195affcb79) [#42](https://github.com/npm/query/pull/42) bump @npmcli/template-oss from 4.18.1 to 4.19.0 (@dependabot[bot])
+* [`653f22f`](https://github.com/npm/query/commit/653f22f471c141405339ee034a870b83a09be76c) [#41](https://github.com/npm/query/pull/41) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`c9d2318`](https://github.com/npm/query/commit/c9d231895e3404a82ba77eacbb8c162af8dbd582) [#41](https://github.com/npm/query/pull/41) bump @npmcli/template-oss from 4.18.0 to 4.18.1 (@dependabot[bot])
+
 ## [3.0.1](https://github.com/npm/query/compare/v3.0.0...v3.0.1) (2023-09-12)
 
 ### Bug Fixes
