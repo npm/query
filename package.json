@@ -1,6 +1,6 @@
 {
   "name": "@npmcli/query",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "npm query parser and tools",
   "main": "lib/index.js",
   "scripts": {

@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.1](https://github.com/npm/query/compare/v3.1.0...v3.1.1) (2024-04-21)
+
+### Chores
+
+* [`9006ffc`](https://github.com/npm/query/commit/9006ffcbf4d9c2629330f1e789dc26eca115d43c) [#68](https://github.com/npm/query/pull/68) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`45c24d7`](https://github.com/npm/query/commit/45c24d762bf3ee35525f273a810c0e392afc4667) [#68](https://github.com/npm/query/pull/68) bump @npmcli/template-oss from 4.21.3 to 4.21.4 (@dependabot[bot])
+
 ## [3.1.0](https://github.com/npm/query/compare/v3.0.1...v3.1.0) (2024-02-23)
 
 ### Features
