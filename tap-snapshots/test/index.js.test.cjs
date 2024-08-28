@@ -116,6 +116,7 @@ exports[`test/index.js TAP queries #a *:root > #a *:root 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -229,6 +230,7 @@ exports[`test/index.js TAP queries #a > :root > #a > :root 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -342,6 +344,7 @@ exports[`test/index.js TAP queries #a ~ :root > #a ~ :root 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -409,6 +412,7 @@ exports[`test/index.js TAP queries #a, #bar:semver(2), #foo > #a, #bar:semver(2)
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -479,6 +483,7 @@ exports[`test/index.js TAP queries #a, #bar:semver(2), #foo > #a, #bar:semver(2)
           "line": 1,
         },
       },
+      "sourceIndex": 3,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -521,6 +526,7 @@ exports[`test/index.js TAP queries #a, #bar:semver(2), #foo > #a, #bar:semver(2)
           "line": 1,
         },
       },
+      "sourceIndex": 19,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -588,6 +594,7 @@ exports[`test/index.js TAP queries #bar > #bar 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -700,6 +707,7 @@ exports[`test/index.js TAP queries #bar > * > #bar > * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -795,6 +803,7 @@ exports[`test/index.js TAP queries #bar:semver(*) > #bar:semver(*) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -890,6 +899,7 @@ exports[`test/index.js TAP queries #bar:semver(1 || 2) > #bar:semver(1 || 2) 1`]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -985,6 +995,7 @@ exports[`test/index.js TAP queries #bar:semver(1 || 2.0.0) > #bar:semver(1 || 2.
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1086,6 +1097,7 @@ exports[`test/index.js TAP queries #bar:semver(1.0.0, :attr(engines, [node]), sa
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1181,6 +1193,7 @@ exports[`test/index.js TAP queries #bar:semver(1.4.0 || 2) > #bar:semver(1.4.0 |
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1276,6 +1289,7 @@ exports[`test/index.js TAP queries #bar:semver(1||2) > #bar:semver(1||2) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1371,6 +1385,7 @@ exports[`test/index.js TAP queries #bar:semver(2 - 3) > #bar:semver(2 - 3) 1`] =
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1466,6 +1481,7 @@ exports[`test/index.js TAP queries #bar:semver(2) > #bar:semver(2) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1561,6 +1577,7 @@ exports[`test/index.js TAP queries #bar:semver(2), #foo > #bar:semver(2), #foo 1
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1603,6 +1620,7 @@ exports[`test/index.js TAP queries #bar:semver(2), #foo > #bar:semver(2), #foo 1
           "line": 1,
         },
       },
+      "sourceIndex": 15,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1698,6 +1716,7 @@ exports[`test/index.js TAP queries #bar:semver(2.0) > #bar:semver(2.0) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1793,6 +1812,7 @@ exports[`test/index.js TAP queries #bar:semver(2.0.0 - 3.0.0) > #bar:semver(2.0.
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1888,6 +1908,7 @@ exports[`test/index.js TAP queries #bar:semver(2.x) > #bar:semver(2.x) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -1983,6 +2004,7 @@ exports[`test/index.js TAP queries #bar:semver(2.x.x) > #bar:semver(2.x.x) 1`] =
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2078,6 +2100,7 @@ exports[`test/index.js TAP queries #bar:semver(<3.0.0) > #bar:semver(<3.0.0) 1`]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2173,6 +2196,7 @@ exports[`test/index.js TAP queries #bar:semver(=2.0.0) > #bar:semver(=2.0.0) 1`]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2268,6 +2292,7 @@ exports[`test/index.js TAP queries #bar:semver(>1.5.0 <3.0.0) > #bar:semver(>1.5
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2363,6 +2388,7 @@ exports[`test/index.js TAP queries #bar:semver(>=2.0.0) > #bar:semver(>=2.0.0) 1
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2464,6 +2490,7 @@ exports[`test/index.js TAP queries #bar:semver(^1.0.0, :attr(engines, [node]), i
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2559,6 +2586,7 @@ exports[`test/index.js TAP queries #bar:semver(^2.0.0) > #bar:semver(^2.0.0) 1`]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2654,6 +2682,7 @@ exports[`test/index.js TAP queries #bar:semver(^2.0.0-beta.0) > #bar:semver(^2.0
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2749,6 +2778,7 @@ exports[`test/index.js TAP queries #bar:semver(~2.0.0) > #bar:semver(~2.0.0) 1`]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2816,6 +2846,7 @@ exports[`test/index.js TAP queries #ipsum > #ipsum 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2928,6 +2959,7 @@ exports[`test/index.js TAP queries * :root > * :root 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -2995,6 +3027,7 @@ exports[`test/index.js TAP queries * > * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -3107,6 +3140,7 @@ exports[`test/index.js TAP queries * > * > * > * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -3220,6 +3254,7 @@ exports[`test/index.js TAP queries * > :root > * > :root 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -3357,10 +3392,11 @@ exports[`test/index.js TAP queries *:has(* > #bar) > *:has(* > #bar) 1`] = `
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 6,
+                    "column": 7,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 6,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -3406,6 +3442,7 @@ exports[`test/index.js TAP queries *:has(* > #bar) > *:has(* > #bar) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -3518,10 +3555,11 @@ exports[`test/index.js TAP queries *:has(> #bar) > *:has(> #bar) 1`] = `
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 6,
+                    "column": 7,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 6,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -3567,6 +3605,7 @@ exports[`test/index.js TAP queries *:has(> #bar) > *:has(> #bar) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -3771,10 +3810,11 @@ exports[`test/index.js TAP queries *:root > *:empty:not(*[name^=a], #b) > *:root
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 21,
+                    "column": 22,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 21,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -3817,6 +3857,7 @@ exports[`test/index.js TAP queries *:root > *:empty:not(*[name^=a], #b) > *:root
                     "line": 1,
                   },
                 },
+                "sourceIndex": 32,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -3862,6 +3903,7 @@ exports[`test/index.js TAP queries *:root > *:empty:not(*[name^=a], #b) > *:root
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -3930,6 +3972,7 @@ exports[`test/index.js TAP queries .bundled > .bundled 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -4043,6 +4086,7 @@ exports[`test/index.js TAP queries .bundled ~ * > .bundled ~ * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -4162,10 +4206,11 @@ exports[`test/index.js TAP queries .bundled ~ :not(.workspace) > .bundled ~ :not
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 16,
+                    "column": 17,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 16,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -4211,6 +4256,7 @@ exports[`test/index.js TAP queries .bundled ~ :not(.workspace) > .bundled ~ :not
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -4323,6 +4369,7 @@ exports[`test/index.js TAP queries .dev * > .dev * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -4391,6 +4438,7 @@ exports[`test/index.js TAP queries .dev > .dev 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -4459,6 +4507,7 @@ exports[`test/index.js TAP queries .optional > .optional 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -4527,6 +4576,7 @@ exports[`test/index.js TAP queries .peer > .peer 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -4640,6 +4690,7 @@ exports[`test/index.js TAP queries .workspace > * > .workspace > * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -4708,6 +4759,7 @@ exports[`test/index.js TAP queries .workspace > .workspace 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -4821,6 +4873,7 @@ exports[`test/index.js TAP queries .workspace ~ * > .workspace ~ * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -4958,10 +5011,11 @@ exports[`test/index.js TAP queries .workspace:has(* #lorem, ~ #b) > .workspace:h
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 15,
+                    "column": 16,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 15,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -5024,6 +5078,7 @@ exports[`test/index.js TAP queries .workspace:has(* #lorem, ~ #b) > .workspace:h
                     "line": 1,
                   },
                 },
+                "sourceIndex": 24,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -5069,6 +5124,7 @@ exports[`test/index.js TAP queries .workspace:has(* #lorem, ~ #b) > .workspace:h
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -5227,10 +5283,11 @@ exports[`test/index.js TAP queries .workspace:has(> * > #lorem) > .workspace:has
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 15,
+                    "column": 16,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 15,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -5276,6 +5333,7 @@ exports[`test/index.js TAP queries .workspace:has(> * > #lorem) > .workspace:has
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -5351,6 +5409,7 @@ exports[`test/index.js TAP queries :attr([keywords=lorem]) > :attr([keywords=lor
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -5427,6 +5486,7 @@ exports[`test/index.js TAP queries :attr([name=dasher i]) > :attr([name=dasher i
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -5502,6 +5562,7 @@ exports[`test/index.js TAP queries :attr([name=dasher]) > :attr([name=dasher]) 1
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -5579,6 +5640,7 @@ exports[`test/index.js TAP queries :attr(arbitrary, [foo$=oo]) > :attr(arbitrary
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -5656,6 +5718,7 @@ exports[`test/index.js TAP queries :attr(arbitrary, [foo*=oo]) > :attr(arbitrary
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -5733,6 +5796,7 @@ exports[`test/index.js TAP queries :attr(arbitrary, [foo|=oo]) > :attr(arbitrary
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -5813,6 +5877,7 @@ exports[`test/index.js TAP queries :attr(arbitrary, foo, :attr(funding, [type=GH
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -5891,6 +5956,7 @@ exports[`test/index.js TAP queries :attr(dependencies, :attr([bar="^1.0.0"])) > 
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -5968,6 +6034,7 @@ exports[`test/index.js TAP queries :attr(dependencies, [bar="^1.0.0"]) > :attr(d
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -6045,6 +6112,7 @@ exports[`test/index.js TAP queries :attr(devDependencies, [@scoped/package]) > :
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -6124,6 +6192,7 @@ exports[`test/index.js TAP queries :attr(funding, :attr([type=GitHub i])) > :att
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -6202,6 +6271,7 @@ exports[`test/index.js TAP queries :attr(funding, :attr([type=GitHub])) > :attr(
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -6270,6 +6340,7 @@ exports[`test/index.js TAP queries :empty > :empty 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -6338,6 +6409,7 @@ exports[`test/index.js TAP queries :extraneous > :extraneous 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -6406,6 +6478,7 @@ exports[`test/index.js TAP queries :invalid > :invalid 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -6478,10 +6551,11 @@ exports[`test/index.js TAP queries :is(#a, #b) > * > :is(#a, #b) > * 1`] = `
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 4,
+                    "column": 5,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 4,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -6524,6 +6598,7 @@ exports[`test/index.js TAP queries :is(#a, #b) > * > :is(#a, #b) > * 1`] = `
                     "line": 1,
                   },
                 },
+                "sourceIndex": 7,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -6614,6 +6689,7 @@ exports[`test/index.js TAP queries :is(#a, #b) > * > :is(#a, #b) > * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -6714,10 +6790,11 @@ exports[`test/index.js TAP queries :is(*:semver(2.0.0), :semver(=2.0.0-beta.45))
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 4,
+                    "column": 5,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 4,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -6768,6 +6845,7 @@ exports[`test/index.js TAP queries :is(*:semver(2.0.0), :semver(=2.0.0-beta.45))
                     "line": 1,
                   },
                 },
+                "sourceIndex": 20,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -6813,6 +6891,7 @@ exports[`test/index.js TAP queries :is(*:semver(2.0.0), :semver(=2.0.0-beta.45))
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -6881,6 +6960,7 @@ exports[`test/index.js TAP queries :link > :link 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -6949,6 +7029,7 @@ exports[`test/index.js TAP queries :link > :link 2`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7017,6 +7098,7 @@ exports[`test/index.js TAP queries :missing > :missing 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7089,10 +7171,11 @@ exports[`test/index.js TAP queries :not(#foo) > :not(#foo) 1`] = `
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 5,
+                    "column": 6,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 5,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -7138,6 +7221,7 @@ exports[`test/index.js TAP queries :not(#foo) > :not(#foo) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7220,10 +7304,11 @@ exports[`test/index.js TAP queries :not(:not(:link)) > :not(:not(:link)) 1`] = `
                               "line": 1,
                             },
                             "start": Object {
-                              "column": 10,
+                              "column": 11,
                               "line": 1,
                             },
                           },
+                          "sourceIndex": 10,
                           "spaces": Object {
                             "after": "",
                             "before": "",
@@ -7265,10 +7350,11 @@ exports[`test/index.js TAP queries :not(:not(:link)) > :not(:not(:link)) 1`] = `
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 5,
+                    "column": 6,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 5,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -7314,6 +7400,7 @@ exports[`test/index.js TAP queries :not(:not(:link)) > :not(:not(:link)) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7382,6 +7469,7 @@ exports[`test/index.js TAP queries :outdated > :outdated 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7451,6 +7539,7 @@ exports[`test/index.js TAP queries :outdated(any) > :outdated(any) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7520,6 +7609,7 @@ exports[`test/index.js TAP queries :path() > :path() 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7589,6 +7679,7 @@ exports[`test/index.js TAP queries :path(*) > :path(*) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7658,6 +7749,7 @@ exports[`test/index.js TAP queries :path(**/bar) > :path(**/bar) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7727,6 +7819,7 @@ exports[`test/index.js TAP queries :path(./node_modules/bar) > :path(./node_modu
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7796,6 +7889,7 @@ exports[`test/index.js TAP queries :path(node_modules/*) > :path(node_modules/*)
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7865,6 +7959,7 @@ exports[`test/index.js TAP queries :path(node_modules/bar) > :path(node_modules/
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -7934,6 +8029,7 @@ exports[`test/index.js TAP queries :path(node_modules/foo/node_modules/bar) > :p
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -8002,6 +8098,7 @@ exports[`test/index.js TAP queries :private > :private 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -8159,6 +8256,7 @@ exports[`test/index.js TAP queries :root #bar > * > :root #bar > * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -8344,6 +8442,7 @@ exports[`test/index.js TAP queries :root #bar:semver(1) > * > :root #bar:semver(
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -8529,6 +8628,7 @@ exports[`test/index.js TAP queries :root #bar:semver(1) ~ * > :root #bar:semver(
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -8687,6 +8787,7 @@ exports[`test/index.js TAP queries :root > #bar > * > :root > #bar > * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -8800,6 +8901,7 @@ exports[`test/index.js TAP queries :root > #bar > :root > #bar 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -8913,6 +9015,7 @@ exports[`test/index.js TAP queries :root > * > :root > * 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -9047,6 +9150,7 @@ exports[`test/index.js TAP queries :root > *.workspace > :root > *.workspace 1`]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -9230,10 +9334,11 @@ exports[`test/index.js TAP queries :root > *:has(* > #bar) > :root > *:has(* > #
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 14,
+                    "column": 15,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 14,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -9279,6 +9384,7 @@ exports[`test/index.js TAP queries :root > *:has(* > #bar) > :root > *:has(* > #
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -9448,10 +9554,11 @@ exports[`test/index.js TAP queries :root > *:is(.prod:not(:empty), .dev > [name=
                               "line": 1,
                             },
                             "start": Object {
-                              "column": 23,
+                              "column": 24,
                               "line": 1,
                             },
                           },
+                          "sourceIndex": 23,
                           "spaces": Object {
                             "after": "",
                             "before": "",
@@ -9493,10 +9600,11 @@ exports[`test/index.js TAP queries :root > *:is(.prod:not(:empty), .dev > [name=
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 13,
+                    "column": 14,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 13,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -9590,6 +9698,7 @@ exports[`test/index.js TAP queries :root > *:is(.prod:not(:empty), .dev > [name=
                     "line": 1,
                   },
                 },
+                "sourceIndex": 31,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -9680,6 +9789,7 @@ exports[`test/index.js TAP queries :root > *:is(.prod:not(:empty), .dev > [name=
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -9864,10 +9974,11 @@ exports[`test/index.js TAP queries :root > .workspace > *:not(#bar) > :root > .w
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 27,
+                    "column": 28,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 27,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -9913,6 +10024,7 @@ exports[`test/index.js TAP queries :root > .workspace > *:not(#bar) > :root > .w
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -10027,6 +10139,7 @@ exports[`test/index.js TAP queries :root > .workspace > :root > .workspace 1`] =
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -10166,10 +10279,11 @@ exports[`test/index.js TAP queries :root > .workspace:not(#b) > :root > .workspa
                     "line": 1,
                   },
                   "start": Object {
-                    "column": 23,
+                    "column": 24,
                     "line": 1,
                   },
                 },
+                "sourceIndex": 23,
                 "spaces": Object {
                   "after": "",
                   "before": "",
@@ -10215,6 +10329,7 @@ exports[`test/index.js TAP queries :root > .workspace:not(#b) > :root > .workspa
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -10354,6 +10469,7 @@ exports[`test/index.js TAP queries :root > .workspace[name=a] > :root > .workspa
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -10518,6 +10634,7 @@ exports[`test/index.js TAP queries :root > .workspace[name=a][version=1.0.0] > :
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -10657,6 +10774,7 @@ exports[`test/index.js TAP queries :root > .workspace[version=1.0.0] > :root > .
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -10771,6 +10889,7 @@ exports[`test/index.js TAP queries :root > :empty > :root > :empty 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -10839,6 +10958,7 @@ exports[`test/index.js TAP queries :root > :root 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -10953,6 +11073,7 @@ exports[`test/index.js TAP queries :root > :root > :root > :root 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11071,6 +11192,7 @@ exports[`test/index.js TAP queries :root > [name=bar] > :root > [name=bar] 1`] =
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11139,6 +11261,7 @@ exports[`test/index.js TAP queries :root, :root > :root, :root 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11182,6 +11305,7 @@ exports[`test/index.js TAP queries :root, :root > :root, :root 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 6,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11250,6 +11374,7 @@ exports[`test/index.js TAP queries :scope > :scope 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11325,6 +11450,7 @@ exports[`test/index.js TAP queries :semver() > :semver() 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11400,6 +11526,7 @@ exports[`test/index.js TAP queries :semver(*) > :semver(*) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11480,6 +11607,7 @@ exports[`test/index.js TAP queries :semver(1.0.0, :attr(engines, [node])) > :sem
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11561,6 +11689,7 @@ exports[`test/index.js TAP queries :semver(1.0.0, :attr(engines, [node]), "satis
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11642,6 +11771,7 @@ exports[`test/index.js TAP queries :semver(1.0.0, :attr(engines, [node]), 'satis
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11723,6 +11853,7 @@ exports[`test/index.js TAP queries :semver(1.0.0, :attr(engines, [node]), satisf
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11800,6 +11931,7 @@ exports[`test/index.js TAP queries :semver(1.0.0, [version]) > :semver(1.0.0, [v
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11878,6 +12010,7 @@ exports[`test/index.js TAP queries :semver(1.0.0, [version], satisfies) > :semve
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -11953,6 +12086,7 @@ exports[`test/index.js TAP queries :semver(1.4.0 || 2.2.2) > :semver(1.4.0 || 2.
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12028,6 +12162,7 @@ exports[`test/index.js TAP queries :semver(2 - 3) > :semver(2 - 3) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12103,6 +12238,7 @@ exports[`test/index.js TAP queries :semver(2.0.0) > :semver(2.0.0) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12183,6 +12319,7 @@ exports[`test/index.js TAP queries :semver(:attr(engines, [node]), 1.0.0) > :sem
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12264,6 +12401,7 @@ exports[`test/index.js TAP queries :semver(:attr(engines, [node]), 1.0.0, "satis
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12345,6 +12483,7 @@ exports[`test/index.js TAP queries :semver(:attr(engines, [node]), 1.0.0, 'satis
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12426,6 +12565,7 @@ exports[`test/index.js TAP queries :semver(:attr(engines, [node]), 1.0.0, satisf
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12506,6 +12646,7 @@ exports[`test/index.js TAP queries :semver(:attr(engines, [node]), ^1.0.0) > :se
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12586,6 +12727,7 @@ exports[`test/index.js TAP queries :semver(:attr(engines, [node]), satisfies) > 
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12661,6 +12803,7 @@ exports[`test/index.js TAP queries :semver(=1.4.0) > :semver(=1.4.0) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12736,6 +12879,7 @@ exports[`test/index.js TAP queries :semver(>=2) > :semver(>=2) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12813,6 +12957,7 @@ exports[`test/index.js TAP queries :semver([version], 1.0.0) > :semver([version]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12891,6 +13036,7 @@ exports[`test/index.js TAP queries :semver([version], 1.0.0, satisfies) > :semve
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -12968,6 +13114,7 @@ exports[`test/index.js TAP queries :semver([version], ^1.0.0) > :semver([version
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13046,6 +13193,7 @@ exports[`test/index.js TAP queries :semver([version], ^1.0.0, satisfies) > :semv
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13126,6 +13274,7 @@ exports[`test/index.js TAP queries :semver(^1.0.0, :attr(engines, [node])) > :se
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13207,6 +13356,7 @@ exports[`test/index.js TAP queries :semver(^1.0.0, :attr(engines, [node]), satis
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13284,6 +13434,7 @@ exports[`test/index.js TAP queries :semver(^1.0.0, [version]) > :semver(^1.0.0, 
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13362,6 +13513,7 @@ exports[`test/index.js TAP queries :semver(^1.0.0, [version], satisfies) > :semv
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13437,6 +13589,7 @@ exports[`test/index.js TAP queries :semver(~2.0.x) > :semver(~2.0.x) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13506,6 +13659,7 @@ exports[`test/index.js TAP queries :type() > :type() 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13575,6 +13729,7 @@ exports[`test/index.js TAP queries :type(alias) > :type(alias) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13644,6 +13799,7 @@ exports[`test/index.js TAP queries :type(git) > :type(git) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13713,6 +13869,7 @@ exports[`test/index.js TAP queries :type(range) > :type(range) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13782,6 +13939,7 @@ exports[`test/index.js TAP queries :type(tag) > :type(tag) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13850,6 +14008,7 @@ exports[`test/index.js TAP queries :vuln > :vuln 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -13930,6 +14089,7 @@ exports[`test/index.js TAP queries :vuln([cwe=400],[severity=medium]) > :vuln([c
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14005,6 +14165,7 @@ exports[`test/index.js TAP queries :vuln([cwe]) > :vuln([cwe]) 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14080,6 +14241,7 @@ exports[`test/index.js TAP queries :vuln([severity=high]) > :vuln([severity=high
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14160,6 +14322,7 @@ exports[`test/index.js TAP queries :vuln([severity=high],[severity=medium]) > :v
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14236,6 +14399,7 @@ exports[`test/index.js TAP queries :vuln([severity=high][severity=medium]) > :vu
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14323,6 +14487,7 @@ exports[`test/index.js TAP queries > #a > > #a 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14395,6 +14560,7 @@ exports[`test/index.js TAP queries [arbitrary^=foo] > [arbitrary^=foo] 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14464,6 +14630,7 @@ exports[`test/index.js TAP queries [description] > [description] 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14536,6 +14703,7 @@ exports[`test/index.js TAP queries [description~=best] > [description~=best] 1`]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14608,6 +14776,7 @@ exports[`test/index.js TAP queries [description~=ever] > [description~=ever] 1`]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14680,6 +14849,7 @@ exports[`test/index.js TAP queries [name$=oo] > [name$=oo] 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14752,6 +14922,7 @@ exports[`test/index.js TAP queries [name*=a] > [name*=a] 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14826,6 +14997,7 @@ exports[`test/index.js TAP queries [name=@npmcli/abbrev] > [name=@npmcli/abbrev]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14898,6 +15070,7 @@ exports[`test/index.js TAP queries [name=a] > [name=a] 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -14970,6 +15143,7 @@ exports[`test/index.js TAP queries [name=a], *[name=b] > [name=a], *[name=b] 1`]
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -15037,6 +15211,7 @@ exports[`test/index.js TAP queries [name=a], *[name=b] > [name=a], *[name=b] 1`]
           "line": 1,
         },
       },
+      "sourceIndex": 9,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -15109,6 +15284,7 @@ exports[`test/index.js TAP queries [name=a], [name=b] > [name=a], [name=b] 1`] =
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -15156,6 +15332,7 @@ exports[`test/index.js TAP queries [name=a], [name=b] > [name=a], [name=b] 1`] =
           "line": 1,
         },
       },
+      "sourceIndex": 9,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -15225,6 +15402,7 @@ exports[`test/index.js TAP queries [name] > [name] 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -15297,6 +15475,7 @@ exports[`test/index.js TAP queries [name^=a] > [name^=a] 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
@@ -15369,6 +15548,7 @@ exports[`test/index.js TAP queries [name|=dash] > [name|=dash] 1`] = `
           "line": 1,
         },
       },
+      "sourceIndex": 0,
       "spaces": Object {
         "after": "",
         "before": "",
