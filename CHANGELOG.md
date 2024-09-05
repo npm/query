@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.0.0](https://github.com/npm/query/compare/v3.1.0...v4.0.0) (2024-09-03)
+### ⚠️ BREAKING CHANGES
+* `@npmcli/query` now supports node `^18.17.0 || >=20.5.0`
+### Bug Fixes
+* [`77f5687`](https://github.com/npm/query/commit/77f568749a5da77319fb54ec44bf05839cbf9769) [#84](https://github.com/npm/query/pull/84) align to npm 10 node engine range (@hashtagchris)
+### Dependencies
+* [`a2de127`](https://github.com/npm/query/commit/a2de12757c6c2f894c0240e7c787587b2d8fc9e3) [#82](https://github.com/npm/query/pull/82) update postcss-selector-parser range to ^6.1.2 (#82)
+### Chores
+* [`e9f41b7`](https://github.com/npm/query/commit/e9f41b7172a0b166138e9ecd87b5f468a1cd8516) [#84](https://github.com/npm/query/pull/84) run template-oss-apply (@hashtagchris)
+* [`ab69454`](https://github.com/npm/query/commit/ab69454c07b226c1573a958ac383cc26b6be2990) [#81](https://github.com/npm/query/pull/81) bump @npmcli/eslint-config from 4.0.5 to 5.0.0 (@dependabot[bot])
+* [`0fa83b6`](https://github.com/npm/query/commit/0fa83b6e52ce84938c5d5d9835a4017664ec831d) [#70](https://github.com/npm/query/pull/70) bump @npmcli/template-oss to 4.22.0 (@lukekarrys)
+* [`089a7c9`](https://github.com/npm/query/commit/089a7c96749dbd8080c1bd4ecb74eeed5467f258) [#79](https://github.com/npm/query/pull/79) postinstall for dependabot template-oss PR (@hashtagchris)
+* [`aab917a`](https://github.com/npm/query/commit/aab917ad94dac31b76b296fe770ee50350403ddb) [#79](https://github.com/npm/query/pull/79) bump @npmcli/template-oss from 4.22.0 to 4.23.3 (@dependabot[bot])
+
 ## [3.1.0](https://github.com/npm/query/compare/v3.0.1...v3.1.0) (2024-02-23)
 
 ### Features
