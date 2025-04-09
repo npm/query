@@ -1,5 +1,9 @@
 # Changelog
 
+## [4.0.1](https://github.com/npm/query/compare/v4.0.0...v4.0.1) (2025-04-09)
+### Dependencies
+* [`4323772`](https://github.com/npm/query/commit/432377284f5f2ba7ee81531d3e6f0d0c637629c3) [#86](https://github.com/npm/query/pull/86) bump postcss-selector-parser from 6.1.2 to 7.0.0 (#86) (@dependabot[bot])
+
 ## [4.0.0](https://github.com/npm/query/compare/v3.1.0...v4.0.0) (2024-09-03)
 ### ⚠️ BREAKING CHANGES
 * `@npmcli/query` now supports node `^18.17.0 || >=20.5.0`
