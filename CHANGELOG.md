@@ -1,5 +1,14 @@
 # Changelog
 
+## [5.0.0](https://github.com/npm/query/compare/v4.0.1...v5.0.0) (2025-10-22)
+### ⚠️ BREAKING CHANGES
+* align to npm 11 node engine range (#95)
+### Bug Fixes
+* [`0484df7`](https://github.com/npm/query/commit/0484df754225595b34d8924e86b9bd337c31d1ae) [#95](https://github.com/npm/query/pull/95) align to npm 11 node engine range (#95) (@owlstronaut)
+### Chores
+* [`d91d866`](https://github.com/npm/query/commit/d91d86635526d6568be7e322b125543990c5c9e4) [#89](https://github.com/npm/query/pull/89) postinstall workflow updates (#89) (@owlstronaut)
+* [`57466bf`](https://github.com/npm/query/commit/57466bf3e5e8c2f00b136839219fb120062ea6bd) [#94](https://github.com/npm/query/pull/94) bump @npmcli/template-oss from 4.26.0 to 4.27.1 (#94) (@dependabot[bot], @npm-cli-bot)
+
 ## [4.0.1](https://github.com/npm/query/compare/v4.0.0...v4.0.1) (2025-04-09)
 ### Dependencies
 * [`4323772`](https://github.com/npm/query/commit/432377284f5f2ba7ee81531d3e6f0d0c637629c3) [#86](https://github.com/npm/query/pull/86) bump postcss-selector-parser from 6.1.2 to 7.0.0 (#86) (@dependabot[bot])
