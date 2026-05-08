@@ -1,5 +1,17 @@
 # Changelog
 
+## [6.0.0](https://github.com/npm/query/compare/v5.0.0...v6.0.0) (2026-05-08)
+### ⚠️ BREAKING CHANGES
+* `@npmcli/query` now supports node `^22.22.2 || ^24.15.0 || >=26.0.0`
+* template-oss-apply
+### Features
+* [`62e62ec`](https://github.com/npm/query/commit/62e62ecd793c0a0d063853fa6947c71054ea9c47) [#104](https://github.com/npm/query/pull/104) bump to new node engine range (@owlstronaut)
+* [`4027066`](https://github.com/npm/query/commit/4027066f6d0dc040ae02435836597d0e809ebd97) [#104](https://github.com/npm/query/pull/104) template-oss-apply (@owlstronaut)
+### Chores
+* [`f34172c`](https://github.com/npm/query/commit/f34172c8a7d16561191ea40cacd16ff7e55d2a16) [#104](https://github.com/npm/query/pull/104) template-oss-apply (@owlstronaut)
+* [`c0f551c`](https://github.com/npm/query/commit/c0f551c94272180315c072e64ad8a1b060054c5f) [#97](https://github.com/npm/query/pull/97) bump @npmcli/eslint-config from 5.1.0 to 6.0.0 (#97) (@dependabot[bot])
+* [`134141b`](https://github.com/npm/query/commit/134141b8539bc2004a0ebee2fb9087ddca171539) [#102](https://github.com/npm/query/pull/102) bump @npmcli/template-oss from 4.29.0 to 4.30.0 (#102) (@dependabot[bot], @npm-cli-bot)
+
 ## [5.0.0](https://github.com/npm/query/compare/v4.0.1...v5.0.0) (2025-10-22)
 ### ⚠️ BREAKING CHANGES
 * align to npm 11 node engine range (#95)
