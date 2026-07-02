@@ -46,7 +46,7 @@
   "devDependencies": {
     "@npmcli/eslint-config": "^7.0.0",
     "@npmcli/template-oss": "5.1.1",
-    "tap": "^16.2.0"
+    "tap": "^20.0.3"
   },
   "dependencies": {
     "postcss-selector-parser": "^7.0.0"
